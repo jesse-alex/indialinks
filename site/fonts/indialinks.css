@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'indialinks';
+	src:url('indialinks.eot?y2ow6h');
+	src:url('indialinks.eot?#iefixy2ow6h') format('embedded-opentype'),
+		url('indialinks.ttf?y2ow6h') format('truetype'),
+		url('indialinks.woff?y2ow6h') format('woff'),
+		url('indialinks.svg?y2ow6h#indialinks') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: 'indialinks';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back-arrow:before {
+	content: "\e600";
+}
+.icon-back-arrow-active:before {
+	content: "\e601";
+}
+.icon-chat:before {
+	content: "\e602";
+}
+.icon-checkbox:before {
+	content: "\e603";
+}
+.icon-checkbox-ticked .path1:before {
+	content: "\e604";
+	color: rgb(0,131,202);
+}
+.icon-checkbox-ticked .path2:before {
+	content: "\e605";
+	margin-left: -1.3203125em;
+	color: #000;
+}
+.icon-close:before {
+	content: "\e606";
+}
+.icon-cpanel:before {
+	content: "\e607";
+}
+.icon-domain-forwarding:before {
+	content: "\e608";
+}
+.icon-domain-parking:before {
+	content: "\e609";
+}
+.icon-down-arrow:before {
+	content: "\e60a";
+}
+.icon-forward-arrow:before {
+	content: "\e60b";
+}
+.icon-info-active:before {
+	content: "\e60c";
+}
+.icon-info-inactive:before {
+	content: "\e60d";
+}
+.icon-linux:before {
+	content: "\e60e";
+}
+.icon-login:before {
+	content: "\e60f";
+}
+.icon-logout:before {
+	content: "\e610";
+}
+.icon-manage-domains:before {
+	content: "\e611";
+}
+.icon-new-tab:before {
+	content: "\e612";
+}
+.icon-profile:before {
+	content: "\e613";
+}
+.icon-search:before {
+	content: "\e614";
+}
+.icon-settings:before {
+	content: "\e615";
+}
+.icon-theft-protection:before {
+	content: "\e616";
+}
+.icon-tools:before {
+	content: "\e617";
+}
+.icon-up-arrow:before {
+	content: "\e618";
+}
+.icon-windows:before {
+	content: "\e619";
+}
+
+
+.icons-login {
+	font-size: 20px;
+	background-color: #004164;
+	color: #fff;
+	padding: 7px 11px 6px 11px;
+	border-radius: 2px;
+	float: right;
+	position: absolute;
+	top: -10px;
+	right: 0px;
+}
+
+.icons-login:hover, .icons-login:active, .icons-login:focus {
+    background-color: #0082C9;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon-chat {
+    font-size: 16px;
+    float: left;
+    padding-left: 10px;
+    margin-top: -8px;
+}
+
+.icon-down-arrow {
+    font-size: 8px;
+    padding-left: 8px;
+}
+
+.icon-profile, .icon-settings, .icon-logout {
+	font-size: 20px;
+/*	color: #3580c7;*/
+	padding-right: 10px;
+}

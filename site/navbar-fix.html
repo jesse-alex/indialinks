@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+		<link href ="css/bootstrap.min.css" rel = "stylesheet">
+		<link href ="css/style.css" rel = "stylesheet">
+
+  		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  		<script>
+		    function toggleOverlay(){
+		        var overlay = document.getElementById('overlay');
+		        overlay.style.opacity = .8;
+		        if(overlay.style.display == "block"){
+		            overlay.style.display = "none";
+		            specialBox.style.display = "none";
+		        } else {
+		            overlay.style.display = "block";
+		            specialBox.style.display = "block";
+		        }
+		    }
+        
+    </script>
+	</head>
+
+	<body>
+		
+        <div id="overlay"></div>
+
+		<nav class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="IndiaLinks.com"></a>
+                    </div>
+
+                    <div class="nav navbar-nav navbar-right nav-spacer">
+                        <h4 class="login-text">Logged in as Bhavin Chandrana</h4>
+                            <div class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="login-button" src="img/icons/login.png"></img></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">Account</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                    <li><a href="#">Log Out</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+
+				<hr>
+
+            <!--  NAVBAR BEGINS HERE -->
+            <div class="container" >  
+                <ul class="nav navbar-nav" role="navigation" onmousedown="toggleOverlay()">
+                    <li class="active"><a href="#">Dashboard</a></li>
+
+                            <!-- FIRST DROP DOWN BEGINS HERE -->
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Product</a>
+                                <ul class="dropdown-menu">
+
+                                    <!-- SECOND DROP DOWN BEGINS HERE -->
+                                    <li class="dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Web and Email Hosting <img class="navbar-caret" src="img/icons/nav-caret.png"></a>
+                                        <ul class="dropdown-menu columns">
+                                            <li><a href="#">Create Account</a></li>
+                                            <li><a href="#">Search Account</a></li>
+                                            <li><a href="#">List all Accounts</a></li>
+                                            <li><a href="#">My Packages</a></li>
+                                            <li><a href="#">Customer Transfers</a></li>
+                                            <li><a href="#">Bulk Password Change</a></li>
+                                            <li><a href="#">Block/Unblock Accounts</a></li>
+                                            <li><a href="#">Delete Account</a></li>
+                                            <li><a href="#">Disk Usage Report</a></li>
+                                            <li><a href="#">Upgrade Account</a></li>
+                                        </ul>     
+                                    </li>				                    
+                                    <li><a href="#">Domain Name</a></li>
+                                    <li><a href="#">Web Forwarding</a></li>
+                                    <li><a href="#">Manage DNS</a></li>
+                                    <li><a href="#">Dedicated Servers</a></li>			              
+                                </ul>
+                            </li>
+                            <li><a href="#">Customer</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Tickets</a></li>
+                            <li><a href="#">Billing</a></li>
+                            <li><a href="#">Order Box</a></li>
+                            <li><a href="#">Renewals</a></li>
+                            <li><a href="#">Tools</a></li>
+                    </ul>
+            </div>
+        </nav>
+            <!-- END OF NAVBAR -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 pull-left">
+					<h1>Hello Bhavin</h1>
+					<h3>This is what we have for you today.</h3>
+				</div>
+				<div class="col-md-5 pull-right">
+					<div class="alert alert-help text-center" role="alert">
+						<a href ="#"><img src="img/icons/notice-icon_o.png" class="notice-icon"><h4>NEED HELP? CLICK AND JUST ASK!</h4></a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="spacer"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 summary-top">
+						<i class="fa fa-book fa-2x"></i> <h4>Your account summary</h4>
+				</div>
+				<div class="col-md-6 summary-cell">
+						<i class="fa fa-calculator fa-2x"></i> <h4>Debit Amount</h4><span class="summary-data">INR 100,000</span>
+				</div>
+				<div class="col-md-6 summary-cell">
+						<i class="fa fa-random fa-2x"></i> <h4>Days to Renewal</h4><span class="summary-data">30 Days</span>
+				</div>
+
+				<div class="col-md-6 summary-cell">
+						<i class="fa fa-inr fa-2x"></i> <h4>Outstanding Amount</h4><span class="summary-data">INR 10,000</span>
+				</div>
+				<div class="col-md-6 summary-cell">
+						<i class="fa fa-diamond fa-2x"></i> <h4>Loyalty Points</h4><span class="summary-data">20</span>
+				</div>
+
+				<div class="col-md-6 summary-cell">
+						<i class="fa fa-credit-card fa-2x"></i> <h4>Pending Orders</h4><span class="summary-data">4</span>
+				</div>
+				<div class="col-md-6 summary-cell">
+						<i class="fa fa-ticket fa-2x"></i> <h4>Open Tickets</h4><span class="summary-data">None</span>
+				</div>
+				
+				<div class="bottom-bar">
+					<div class="col-md-8 col-md-offset-2">
+						<form role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Instant search for your new domain"><button type="submit" class="btn btn-default"> <i class="fa fa-search fa-lg"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="bottom-bar">
+					<div class="col-md-4 pull-left">
+					</div>
+					
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4">
+					</div>
+                </div>
+            </div>
+
+        </div>
+
+		</div>
+
+		<!-- FOOTER -->
+		<div class="navbar navbar-inverse navbar-static-bottom">
+			<div class="container">
+				<div class="navbar-text">
+					IndiaLinks@copy;2015 
+			</div>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+	</body>
+</html>
