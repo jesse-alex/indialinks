@@ -17,6 +17,10 @@
         <!--[if lt IE 8]><!-->
         <link rel="stylesheet" href="fonts/ie7/ie7.css">
         <!--<![endif]-->
+      
+      
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 	</head>
 
@@ -138,7 +142,7 @@
             <div class="spacer-m"></div>
             
             <!-- Bulk Actions -->
-    		<div class="col-md-8">
+            <div class="col-md-8">
     			<div class="section-buttons">
     				<div class="btn-group">
     					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bulk Actions <i class="icon-down-arrow"></i></button>
@@ -147,9 +151,7 @@
 						    <li><a href="#">Delete</a></li>
 					 	</ul>
 					</div>
-    			</div>
-    			<div class="section-buttons">
-    				<button type="button" class="btn apply">Apply</button>
+                    <button type="button" class="btn apply">Apply</button>
     			</div>
     		</div>
             
@@ -308,7 +310,7 @@
             </div>
             
             <!-- Bulk Actions -->
-    		<div class="col-md-8">
+    		<div class="col-md-8 bottom">
     			<div class="section-buttons">
     				<div class="btn-group">
     					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bulk Actions <i class="icon-down-arrow"></i></button>
@@ -317,14 +319,12 @@
 						    <li><a href="#">Delete</a></li>
 					 	</ul>
 					</div>
-    			</div>
-    			<div class="section-buttons">
-    				<button type="button" class="btn apply">Apply</button>
+                    <button type="button" class="btn apply">Apply</button>
     			</div>
     		</div>
             
             <!-- Result Display -->
-            <div class="col-md-4">
+            <div class="col-md-4 bottom">
                 <div class="result-count">
                     <p>14 Results Found</p>
                     <ul class="pagination">
@@ -356,8 +356,6 @@
 		</div>
 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script>
             $(function() {
                 $('td:first-child input').change(function() {

@@ -723,6 +723,9 @@ hr {
     margin-left: -12px;
 }
 
+.bottom {
+    margin-top: -12px;
+}
 /* ---------- RESULT PAGINATION ----------- */
 .result-count {
     float: right;
