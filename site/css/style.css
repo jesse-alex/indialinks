@@ -79,6 +79,170 @@ hr {
 
 /* -----------------------------------------------
 
+           CUSTOM ICONS
+
+-------------------------------------------------*/
+
+.notice-icon {
+    float: left;
+    position: relative;
+    width: 30px;
+    top: -7px;
+}
+
+.icon-linux {
+    font-size: 20px;
+    color: #0179C4;
+}
+
+.icon-windows {
+    font-size: 20px;
+    color: #0179C4;
+}
+
+
+
+/* -----------------------------------------------
+
+           CUSTOM BUTTONS
+
+-------------------------------------------------*/
+
+.login .btn-primary, .register .btn-primary {
+    background-color: #fcbc2c;
+    border: none;
+    width: 290px;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 40px;
+    margin: 10px 0;
+}
+.login .btn-primary:hover,.register .btn-primary:hover {
+    background-color: #fdc956;
+}
+
+.login-btn {
+    position: relative;
+}
+
+.login-btn .dropdown-menu>li {
+    min-height: 20px;
+}
+.login-btn .dropdown-menu>li>a {
+    color: #999;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: none;
+}
+
+.login-btn .dropdown-menu>li>a:hover {
+    background-color: #3580c7;
+    color: #fff;
+}
+
+.bottom-bar .btn-default {
+    position: relative;
+    top: -50px;
+    left: 750px;
+    height: 50px;
+    background-color: #1484c7;
+    border-radius: 0;
+    color: #fff;
+    border-color: #1484c7;
+}
+
+.bottom-bar .btn-default:hover {
+    background-color: #0c6ca6;
+    border-color: #0c6ca6;
+}
+
+.section-buttons .btn {
+    width: 136px;
+    background-color: #fff;
+    border-color: rgba(0,0,0,0.1);
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    color: #3580c7;
+    height: 32px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.section-buttons .btn-group .btn open {
+    border: none;
+}
+
+.section-form .btn-default {
+    width: 100%;
+    height: 50px;
+    margin-left: -32px;
+}
+
+.section-form .btn {
+    background-color: #f9f9f9;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    color: #3580c7;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+}
+
+.section-form .btn:hover {
+    background-color: #dfdfdf;
+}
+
+.section-form-submit .btn {
+    background-color: #fcbc2c;
+    border-color: #fcbc2c;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.section-form-submit .btn:hover {
+    background-color: #fdc956;
+}
+
+
+/* -------- BULK ACTION BUTTON --------*/ 
+
+.btn-group .dropdown-menu {
+    background-color: #fff;
+    min-width: 135px;
+    border-radius: 2px;
+    border: none;
+}
+
+.btn-group .dropdown-menu>li>a{
+    color: #868585; 
+    font: 14px 'Roboto Condensed', sans-serif;
+    font-weight: bold;    
+    width: 135px;
+    height: 37px;
+    padding: 10px 12px 0;
+    border: none;
+    display: block;
+    margin:-3px 0;
+}    
+
+.btn-group .dropdown-menu a:hover, .btn-group .dropdown-menu a:focus {
+    color: #868585;   
+    background-color: #f9f9f9;
+}
+
+
+
+/* -----------------------------------------------
+
            CUSTOM NAVBAR 
 
 -------------------------------------------------*/
@@ -236,10 +400,8 @@ hr {
         -moz-column-gap: 2px; /* Firefox */
         column-gap: 2px;
 
-        background-color: #0A4364;
-    
-    
-}
+        background-color: #0A4364;    
+            }
 }
 
 .navbar-caret{
@@ -263,9 +425,6 @@ hr {
     margin-left: -5px;
 }
 
-.login-btn {
-    position: relative;
-}
 
 .login-text {
     position: relative;
@@ -302,24 +461,6 @@ hr {
     z-index: 1;
     top: -10px;
     left: 115px;
-}
-
-.login-btn .dropdown-menu>li {
-    min-height: 20px;
-}
-.login-btn .dropdown-menu>li>a {
-    color: #999;
-    font-weight: 100;
-    text-transform: uppercase;
-    padding: 10px 0px 10px 20px;
-    letter-spacing: 1px;
-    font-size: 14px;
-    border: none;
-}
-
-.login-btn .dropdown-menu>li>a:hover {
-    background-color: #3580c7;
-    color: #fff;
 }
 
 /* --------------------------------------------------------------
@@ -392,13 +533,6 @@ hr {
   box-shadow: 0px 0.5px 5px rgba(204,204,204,0.5);
     }
 
-.notice-icon {
-    float: left;
-    position: relative;
-    width: 30px;
-    top: -7px;
-}
-
 
 /* --------------------------------------------------------------
 
@@ -470,21 +604,6 @@ hr {
     font-size: large;
 }
 
-.bottom-bar .btn-default {
-    position: relative;
-    top: -50px;
-    left: 750px;
-    height: 50px;
-    background-color: #1484c7;
-    border-radius: 0;
-    color: #fff;
-    border-color: #1484c7;
-}
-
-.bottom-bar .btn-default:hover {
-    background-color: #0c6ca6;
-    border-color: #0c6ca6;
-}
 
 /* ---------------------------------------
 
@@ -535,21 +654,8 @@ hr {
     /* height: 45px; */
 }
 
-.login .btn-primary {
-    background-color: #fcbc2c;
-    border: none;
-    width: 290px;
-    border-radius: 2px;
-    font-weight: bold;
-    height: 40px;
-    margin: 10px 0;
-}
-.login .btn-primary:hover {
-    background-color: #fdc956;
 
-}
-
-.login p {
+.login p, .register{
     color: #3580c7;
     font-size: 12px;
     margin: 0px auto;
@@ -682,23 +788,6 @@ hr {
     max-height: 32px;
     border: none;
 }
-.section-buttons .btn {
-    width: 136px;
-    background-color: #fff;
-    border-color: rgba(0,0,0,0.1);
-    text-align: left;
-    font-weight: bold;
-    font-size: large;
-    text-transform: uppercase;
-    color: #3580c7;
-    height: 32px;
-    border-radius: 2px;
-    font-size: 14px;
-}
-
-.section-buttons .btn-group .btn open {
-    border: none;
-}
 
 .section-buttons .fa-2x {
     float: right;
@@ -709,7 +798,7 @@ hr {
 
 .section-buttons .apply {
     width: 110px;
-    background-color: #f5bc39;
+    background-color: #fcbc2c;
     text-align: center;
     font-weight: bold;
     font-size: 14px;
@@ -723,7 +812,7 @@ hr {
 
 .section-buttons .apply:hover {
     box-shadow: none;
-    background-color: #fdc956;
+    /* background-color: #fdc956; */
 }
 
 .action-hr {
@@ -735,6 +824,15 @@ hr {
     margin-left: -12px;
 }
 
+.hr {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: rgba(100,100,100,0.2);
+    position: absolute;
+    width: 1000px;
+    top: 85px;
+    right: 0px;
+}
 /* ---------- RESULT PAGINATION ----------- */
 .result-count {
     float: right;
@@ -805,6 +903,11 @@ td:first-child, th:first-child {
     position: relative;
     top:3px;
 }
+
+.account-active {
+    font-weight: bold;
+    color: #00ac68;
+}
 /*--------  Section Form --------*/
 
 .section-form .col-md-4 {
@@ -826,42 +929,6 @@ td:first-child, th:first-child {
     width: 310px;
     box-shadow: none;
 }
-
-.section-form .btn-default {
-    width: 100%;
-    height: 50px;
-    margin-left: -32px;
-}
-
-.section-form .btn {
-    background-color: #f9f9f9;
-    border: none;
-    font-weight: bold;
-    font-size: medium;
-    text-transform: uppercase;
-    color: #3580c7;
-    border-radius: 2px;
-    letter-spacing: 0.5px;
-}
-
-.section-form .btn:hover {
-    background-color: #dfdfdf;
-}
-
-.section-form-submit .btn {
-    background-color: #fcbc2c;
-    border-color: #fcbc2c;
-    font-weight: bold;
-    font-size: medium;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 2px;
-}
-
-.section-form-submit .btn:hover {
-    background-color: #fdc956;
-}
-
 
 /* -------- RENEW DOMAIN SELECT ---------- */
 
@@ -899,28 +966,68 @@ option {
    padding:10px;
 }
 
-/* -------- BULK ACTION BUTTON --------*/ 
 
-.btn-group .dropdown-menu {
-    background-color: #fff;
-    min-width: 135px;
-    border-radius: 2px;
-    border: none;
+/* --------- USAGE PROGRESS BARS --------- */
+.disk-empty {
+    background-color: #00ac68 ;
+}
+.disk-warning {
+    background-color: #f5bc39;
+}
+.disk-full {
+    background-color: #ed7149;
 }
 
-.btn-group .dropdown-menu>li>a{
-    color: #868585; 
-    font: 14px 'Roboto Condensed', sans-serif;
-    font-weight: bold;    
-    width: 135px;
-    height: 37px;
-    padding: 10px 12px 0;
-    border: none;
-    display: block;
-    margin:-3px 0;
-}    
+.progress {
+    margin: 0;
+}
 
-.btn-group .dropdown-menu a:hover, .btn-group .dropdown-menu a:focus {
-    color: #868585;   
-    background-color: #f9f9f9;
+
+/* -------------- REGISTER PAGE ------------*/
+.register {
+    position: relative;
+    top: 70px;
+    left: -12px;
+}
+
+.register-left hr, .register-center hr, .register-right hr {
+    border-top: 1px solid #ccc;
+    width: 290px;
+    position: relative;
+    top:45px;
+    padding-bottom: 40px;
+    margin-left: 0;
+}
+
+.register-left .form-control {
+    border-radius: 2px;
+}
+
+.register-left {
+    float: left;
+    width: 290px;
+}
+
+.register-center {
+    width: 290px;
+}
+
+.register-right {
+    float: right;
+    width: 290px;
+}
+
+.register h5 {
+    color: #0083ca;
+    padding-left: 12px;
+}
+
+.register-ext {
+    position: relative;
+    margin-left:12px;
+}
+
+.register-ext .checkbox-inline {
+    padding:5px 10px 10px 15px;
+    width: 59px;
 }
