@@ -680,6 +680,7 @@ hr {
     top: 10px;
     left: -27px;
     max-height: 32px;
+    border: none;
 }
 .section-buttons .btn {
     width: 136px;
@@ -695,8 +696,8 @@ hr {
     font-size: 14px;
 }
 
-.section-buttons .btn:hover {
-    box-shadow: 0.5px 0.5px 10px #cfd2d8;
+.section-buttons .btn-group .btn open {
+    border: none;
 }
 
 .section-buttons .fa-2x {
@@ -709,7 +710,6 @@ hr {
 .section-buttons .apply {
     width: 110px;
     background-color: #f5bc39;
-    border-color: #f5bc39;
     text-align: center;
     font-weight: bold;
     font-size: 14px;
@@ -717,7 +717,13 @@ hr {
     color: #fff;
     margin: -1px 0 0 10px;
     max-height: 40px;
-    border-radius: 0;
+    border-radius: 2px;
+    border: none;
+}
+
+.section-buttons .apply:hover {
+    box-shadow: none;
+    background-color: #fdc956;
 }
 
 .action-hr {
