@@ -141,3 +141,50 @@ i {
 /*	color: #3580c7;*/
 	padding-right: 10px;
 }
+
+.notice-icon {
+    float: left;
+    position: relative;
+    width: 30px;
+    top: -7px;
+}
+
+.icon-linux {
+    font-size: 20px;
+    color: #0179C4;
+}
+
+.icon-windows {
+    font-size: 20px;
+    color: #0179C4;
+}
+
+.icon-search {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.freebies-icon {
+    font-size: 16px;
+    background-color: #0082C9;
+    color: #fff;
+    padding: 7px 10px;
+    position: relative;
+    top: 7px;
+    width: 44px !important;
+    height: 32px !important;
+    
+}
+
+.icon-info-inactive {
+    font-size: 15px;
+    position: relative;
+    
+    top: -40px;
+    right: -190px;
+}
+
+.icon-info-inactive:hover:before {
+    content: "\e60c";
+    text-decoration: none;
+}

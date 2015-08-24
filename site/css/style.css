@@ -15,6 +15,9 @@ body {
     color: #5f5e5e;
 }
 
+a:hover {
+    text-decoration: none;
+}
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;   
     padding-bottom: 10px;
@@ -79,31 +82,6 @@ hr {
 
 /* -----------------------------------------------
 
-           CUSTOM ICONS
-
--------------------------------------------------*/
-
-.notice-icon {
-    float: left;
-    position: relative;
-    width: 30px;
-    top: -7px;
-}
-
-.icon-linux {
-    font-size: 20px;
-    color: #0179C4;
-}
-
-.icon-windows {
-    font-size: 20px;
-    color: #0179C4;
-}
-
-
-
-/* -----------------------------------------------
-
            CUSTOM BUTTONS
 
 -------------------------------------------------*/
@@ -114,8 +92,8 @@ hr {
     width: 290px;
     border-radius: 2px;
     font-weight: bold;
-    height: 40px;
-    margin: 10px 0;
+    height: 43px;
+    margin: 20px 0;
 }
 .login .btn-primary:hover,.register .btn-primary:hover {
     background-color: #fdc956;
@@ -238,8 +216,6 @@ hr {
     color: #868585;   
     background-color: #f9f9f9;
 }
-
-
 
 /* -----------------------------------------------
 
@@ -980,6 +956,8 @@ option {
 
 .progress {
     margin: 0;
+    border-radius: 2px;
+    box-shadow: none;
 }
 
 
@@ -994,13 +972,25 @@ option {
     border-top: 1px solid #ccc;
     width: 290px;
     position: relative;
-    top:45px;
-    padding-bottom: 40px;
+    top: 40px;
+    padding-bottom: 30px;
+    margin-left: 0;
+}
+
+.register-right hr {
+    border-top: 1px solid #ccc;
+    width: 315px;
+    position: relative;
+    top: 40px;
+    padding-bottom: 30px;
     margin-left: 0;
 }
 
 .register-left .form-control {
     border-radius: 2px;
+    position: relative;
+    top: 2.5px;
+    height: 263px;
 }
 
 .register-left {
@@ -1028,6 +1018,57 @@ option {
 }
 
 .register-ext .checkbox-inline {
-    padding:5px 10px 10px 15px;
+    padding: 0px 10px 14px 15px;
     width: 59px;
+}
+
+.register input[type=checkbox] {
+    margin: 2px 0 0 -16px;
+    margin-top:1px \9;
+    line-height:normal
+}
+
+.register-freebies {
+}
+
+.freebies-tooltip + .tooltip > .tooltip-inner {
+    background-color: #fff;
+    color:#0082C9;
+    position: relative;
+    top: 20px;
+    left: 190px;
+    position: relative;
+    width: 90px;
+    padding: 10px;
+    border: #0082C9 1px solid;
+    text-align: left;
+    font-size: 11px;
+    font-weight: normal;
+    border-radius: 0px;
+}
+
+.freebies-tooltip + .tooltip > .tooltip-arrow {
+    color: #fff;
+    border: #0082C9 1px solid;
+    position: relative;
+    width: 10px;
+    top: 70px;
+    left: 150px;
+    display: none;
+}
+.register-title {
+    border: #0082C9 solid 1px;
+    height: 32px;
+    width: 180px;
+    margin-left: 12px;
+    margin-bottom: 14.5px;
+}
+
+.register-title p{
+    font-weight: normal;
+    font-size: 12px;
+    color: #5E5D5D;
+    position: relative;
+    top: -13px;
+    left: 50px;
 }

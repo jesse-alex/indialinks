@@ -223,7 +223,9 @@
 					</label>
             	</div>
             	<span class="spacer-m"></span>
-            	<button class="btn btn-large btn-primary" type="submit">Search</button>
+                <div class="register-btn">
+                <button class="btn btn-large btn-primary btn-text" type="submit"><i class="icon-search"></i><span style="top: -3px;position: relative;letter-spacing: 1px;">SEARCH</span></button>
+                </div> 	
             </div>
 
           </div>
@@ -231,6 +233,43 @@
            <div class="register-right">
             	<h5>Freebies with all Domain Names</h5>
             	<hr>
+               <div class="register-freebies">
+                   <div class="register-title">
+                       <i class="icon-domain-parking freebies-icon"></i>
+                       <p>Domain Parking</p>
+                       <a href="#" data-toggle="tooltip" data-placement="right" class="freebies-tooltip" title="You can set our free parking page to show people your website is ‘coming soon’ until you launch it!"><i class="icon-info-inactive"></i></a>
+                   </div>
+
+                   <div class="register-title">
+                       <i class="icon-manage-domains freebies-icon"></i>
+                       <p>DNS Management</p>
+                       <a href="#" data-toggle="tooltip" data-placement="right" class="freebies-tooltip" title="You can set our free parking page to show people your website is ‘coming soon’ until you launch it!"><i class="icon-info-inactive"></i></a>
+                   </div>
+
+                   <div class="register-title">
+                       <i class="icon-cpanel freebies-icon"></i>
+                       <p>Easy to use Control Panel</p>
+                       <a href="#" data-toggle="tooltip" data-placement="right" class="freebies-tooltip" title="You can set our free parking page to show people your website is ‘coming soon’ until you launch it!"><i class="icon-info-inactive"></i></a>
+                   </div>
+
+                   <div class="register-title">
+                       <i class="icon-domain-forwarding freebies-icon"></i>
+                       <p>Domain Forwarding</p>
+                       <a href="#" data-toggle="tooltip" data-placement="right" class="freebies-tooltip" title="You can set our free parking page to show people your website is ‘coming soon’ until you launch it!"><i class="icon-info-inactive"></i></a>
+                   </div>
+
+                   <div class="register-title ">
+                       <i class="icon-theft-protection freebies-icon"></i>
+                       <p>Theft Protection</p>
+                       <a href="#" data-toggle="tooltip" data-placement="right" class="freebies-tooltip" title="You can set our free parking page to show people your website is ‘coming soon’ until you launch it!"><i class="icon-info-inactive"></i></a>
+                   </div>
+
+                   <div class="register-title">
+                       <i class="icon-tools freebies-icon"></i>
+                       <p>Bulk Tools</p>
+                       <a href="#" data-toggle="tooltip" data-placement="right" class="freebies-tooltip" title="You can set our free parking page to show people your website is ‘coming soon’ until you launch it!"><i class="icon-info-inactive"></i></a>
+                   </div>
+               </div>
             </div>
           </div>
         </div>
@@ -238,10 +277,10 @@
 
 
       
-      <div class="spacer-l"></div> 
+      <div class="spacer-xl"></div> 
         
 		<!-- FOOTER -->
-		<div class="footer">
+		<div class="footer navbar-fixed-bottom">
 			<div class="container">
 				<div class="footer-text">
 					IndiaLinks&copy;2015 
@@ -253,6 +292,12 @@
                 $('td:first-child input').change(function() {
                     $(this).closest('tr').toggleClass("checked", this.checked);
                 });
+            });
+        </script>
+            
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
             });
         </script>
 
