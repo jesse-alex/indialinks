@@ -176,6 +176,24 @@ i {
     
 }
 
+.icon-manage-domains {
+	font-size: 20px;
+	padding: 6px 11px;
+	top: 5px;
+}
+
+.icon-cpanel {
+	font-size: 18px;
+	padding: 6px 11px;
+	top: 6px;
+}
+
+.icon-theft-protection, .icon-tools {
+	font-size: 18px;
+	padding: 6px 11px;
+	top: 6px;
+}
+
 .icon-info-inactive {
     font-size: 15px;
     position: relative;
