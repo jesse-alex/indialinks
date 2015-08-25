@@ -93,7 +93,7 @@ hr {
     border-radius: 2px;
     font-weight: bold;
     height: 43px;
-    margin: 20px 0;
+    margin: 16px 0;
 }
 .login .btn-primary:hover,.register .btn-primary:hover {
     background-color: #fdc956;
@@ -992,7 +992,7 @@ option {
     border-radius: 2px;
     position: relative;
     top: 2.5px;
-    height: 263px;
+    height: 262px;
 }
 
 .register-left {
