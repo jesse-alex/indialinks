@@ -10,3 +10,7 @@ $(function() {
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
+
+$(document).ready(function(){
+    $('[data-toggle=tooltip-active]').tooltip({trigger: 'manual'}).tooltip('show');
+});

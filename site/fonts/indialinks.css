@@ -205,4 +205,5 @@ i {
 .icon-info-inactive:hover:before {
     content: "\e60c";
     text-decoration: none;
+    color:#0083ca;
 }
