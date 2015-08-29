@@ -24,22 +24,28 @@ ul li {
 /* This hides the dropdowns */
 
 
-li ul { display: none; }
+li ul { 
+    display: none;
+    width: 100%;
+}
 
 ul li a {
   display: block;
+    font-size: 15px;
   padding: 1em;
   text-decoration: none;
   white-space: nowrap;
   color: #fff;
   text-transform: uppercase;
+    border-top: #000 1px solid;
+
 }
 
 li .active a {
   color: #fcbc2c;
 }
 
-ul li a:hover { background: #1484c7; }
+ul li a:hover { background: #0082C9; }
 
 /* Display the dropdown */
 
@@ -51,9 +57,16 @@ li:hover > ul {
 
 li:hover li { float: none; }
 
-li:hover a { background: #1bc2a2; }
+li:hover a { background: #0082C9; }
 
-li:hover li a:hover { background: #2c3e50; }
+li:hover li a:hover { background: #0c6396; }
+
+.level-one li a:focus, .level-one li a:active { background-color: #0c6396;}
+.level-one li ul li a { 
+    background-color: #0c6396;
+    border-left: #000 1px solid;
+}
+.level-one li ul li a:hover {background-color: #064364;}
 
 .main-navigation li ul li { border-top: 0; }
 
@@ -76,3 +89,28 @@ ul:after {
 }
 
 ul:after { clear: both; }
+
+/* ------- TWO COLUMNS DROPDOWN -------*/
+
+@media screen and (max-width: 991px){
+    .columns{
+        height: 20px;
+        overflow:scroll;
+
+    }
+}
+
+@media screen and (min-width: 992px){
+    .columns{
+        -moz-column-count:2; /* Firefox */
+        -webkit-column-count:2; /* Safari and Chrome */
+        column-count:2;
+        width: 500px;
+
+        -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 2px; /* Firefox */
+        column-gap: 2px;
+
+        background-color: #0A4364;    
+            }
+}
