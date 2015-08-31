@@ -6,8 +6,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 
-.container { width: 1004px !important; }
-.navbar-wrapper {background: #002032;height: 43px;}
+.container { width: 1004px !important;}
+.navbar-wrapper {background: #002032;height: 39px;}
+.navbar-header {height:56px;}
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -26,16 +27,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
+h3 {
+    font-size: 21px;
+}
+
 .footer {
     background-color: #004164;
     border-radius: 0px;
-    height:40px;
+    height: 30px;
     padding: 10px 0px;
 }
 
 .footer-text {
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
     margin:0 auto;
     position: relative;
 }
@@ -253,9 +258,10 @@ hr {
 
 .navbar>.container .navbar-brand {
     
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 700;
     color: #fff;
+    margin-top: 6px;
 }
 .navbar-nav>li>.dropdown-menu {
     padding: inherit;
@@ -270,7 +276,7 @@ hr {
     font-size: 14px;
     text-transform: uppercase;     
     letter-spacing: 0;  
-    height: 43px;
+    height: 39px;
     width: 1004px;
     margin-left: -25px;
     font-weight: 400;
@@ -280,7 +286,7 @@ hr {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
     color: #fcbc2c;
     background-color: #002032;
-    height: 43px;
+    height: 39px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -294,7 +300,7 @@ hr {
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>li>a:hover{   
     font-weight: normal;
     background-color: #1484c7;
-    height: 43px;
+    height: 39px;
 }
 
 .dropdown-submenu {
@@ -318,7 +324,7 @@ hr {
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: #ffffff;   
-    background-color: #0082C9;
+    background-color: #006197;
 }
 
 .navbar-wrapper .dropdown-menu>li>a:hover:after, .navbar-wrapper .dropdown-menu>li:focus:after, .navbar-wrapper .dropdown-menu>li:active:after{
@@ -439,7 +445,7 @@ hr {
     font-weight: normal;
     letter-spacing: normal;
     font-size: 14px;
-    top: 15px;
+    top: 20px;
 }
 
 .bubble {
@@ -783,7 +789,7 @@ hr {
 #section-head h3 {
     color: #f5bc39;
     display: inline;
-    font-size: 22px;
+    font-size: 21px;
 }
 #section-head p {
     font-size: 15px;
@@ -929,19 +935,64 @@ td:first-child, th:first-child {
     color: #00ac68;
 }
 
+
+/* AGREEMENT TABLE */
 .table-agree td {
     width:  333px;  
 }
 
 .table-agree td:nth-child(2), .table-agree th:nth-child(2) {
-    text-align: center;
+    text-align: left;
+}
+
+.table-agree th:nth-child(2) {
+    padding-left: 25px;
 }
 
 .table-agree .renewal-select {
    width: 225px;
    height: 34px;
    background: url(../img/up-arrow.png)no-repeat 92% 50% #FFF;
-   background-position-x: 220px;
+   background-position-x: 210px;
+}
+
+.table-agree>tbody>tr:hover {
+    background-color: transparent;   
+    border: none;
+}
+
+
+/* DISK USAGE TABLE */
+
+.disk-usage td:nth-child(1), .disk-usage th:nth-child(1) {
+    text-align: left;
+    width: 10px;
+}
+
+.disk-usage td:nth-child(2), .disk-usage th:nth-child(2) {
+    width: 60px;
+    text-align: left;
+}
+
+.disk-usage td:nth-child(3), .disk-usage th:nth-child(3) {
+    width: 200px;
+}
+
+.disk-usage td:nth-child(4), .disk-usage th:nth-child(4) {
+    text-align: right;
+    width: 100px;
+}
+.disk-usage td:nth-child(5), .disk-usage th:nth-child(5) {
+    text-align: right;
+    width: 100px;
+}
+.disk-usage td:nth-child(6), .disk-usage th:nth-child(6) {
+    text-align: left;
+    width: 350px;
+    padding-left: 30px;
+}
+.disk-usage td:nth-child(7), .disk-usage th:nth-child(7) {
+    text-align: right;
 }
 /*--------  Section Form --------*/
 
@@ -1097,7 +1148,7 @@ option {
     font-family: "Roboto Condensed";
     color:#0083ca;
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 190px;
     position: relative;
     width: 90px;
@@ -1127,7 +1178,7 @@ option {
     font-family: "Roboto Condensed";
     color:#0083ca;
     position: relative;
-    top: -102px;
+    bottom: 100px;
     left: 190px;
     position: relative;
     width: 90px;
