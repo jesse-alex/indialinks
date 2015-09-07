@@ -1034,6 +1034,38 @@ td:first-child, th:first-child {
 .customer-list td:nth-child(7), .customer-list th:nth-child(7) {
     text-align: right;
 }
+
+
+/* DOMAIN PRICING TABLE */
+
+.domain-pricing tfoot>tr>td, .domain-pricing th {
+    color: #3580C7;
+    border: 1px rgba(0,0,0,0.1) solid;
+}
+
+.domain-pricing thead>tr>th {
+    border-bottom: 2px #999 solid;
+}
+
+.domain-pricing tfoot>tr>td {
+    border-top: 2px #999 solid;
+}
+
+.domain-pricing td:nth-child(1), .domain-pricing th:nth-child(1) {
+    text-align: left;
+    height: 40px;
+    font-weight: bold;
+}
+
+.domain-pricing td, .domain-pricing th {
+    text-align: right;
+}
+
+.domain-pricing>tbody>tr:hover {
+    background-color: transparent;   
+    border: none;
+}
+
 /*--------  Section Form --------*/
 
 .section-form .col-md-4 {
@@ -1588,5 +1620,93 @@ label.css-agree {
     margin: 90px 60px;
 }
 .manage-customer .btn-primary:hover {
+    background-color: #fdc956;
+}
+
+
+
+/* SEARCH PAGE */
+.search h5 {
+    color: #3580c7;
+    padding-left: 12px;
+}
+
+.search .btn-group .btn {
+    width: 619px;
+    height: 45px;
+    background-color: #fff;
+    border-color: rgba(0,0,0,0.1);
+    text-align: left;
+    font-size: 14px;
+    color: #5E5D5D;
+    border-radius: 2px;
+    position: absolute;
+    top: -20px;
+}
+
+
+.search .icon-down-arrow  {
+    font-size: 8px;
+    padding-left: 490px;
+    color: #0082C9;
+}
+
+.search .btn-group .dropdown-menu {
+    background-color: #fff;
+    width: 619px;
+    border-radius: 2px;
+    border: none;
+    top: 25px;
+}
+
+.search .btn-group .dropdown-menu>li>a{
+    color: #868585; 
+    font: 14px 'Roboto Condensed', sans-serif;
+    font-weight: bold;    
+    width: 619px;
+    height: 37px;
+    padding: 10px 12px 0;
+    border: none;
+    display: block;
+    margin:-3px 0;
+}    
+
+.search .btn-group .dropdown-menu a:hover, .btn-group .dropdown-menu a:focus {
+    color: #868585;   
+    background-color: #f9f9f9;
+}
+
+.search .btn-primary {
+    background-color: #fcbc2c;
+    border: none;
+    width: 480px;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 43px;
+    margin: 90px 60px;
+}
+.search .btn-primary:hover {
+    background-color: #fdc956;
+}
+
+.search .form-control {
+    height: 45px;
+    border-radius: 2px;
+    margin-top: -12px;
+    border-color: rgba(0,0,0,0.1);
+}
+
+.search .btn-primary {
+    background-color: #fcbc2c;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 47px;
+    width: 320px;
+    position: absolute;
+    top: -80px;
+    left: -40px;
+}
+.search .btn-primary:hover {
     background-color: #fdc956;
 }

@@ -126,8 +126,8 @@
     		<div class="row">
     			<div class="col-md-8">
     				<div id="section-head">
-    					<h3>Customer List</h3>
-    					<p>Lorem Ipsum Lorem Ipsum</p>
+    					<h3>Search Customers</h3>
+    					<p>Use below form to search customers</p>
     				</div>
     			</div>
     			<div class="col-md-4">
@@ -136,133 +136,32 @@
 						</div>
 					</div>
     		</div>
-            <div class="spacer-s"></div>
-            
-            <!-- Bulk Actions -->
-            <div class="col-md-8">
-    			<div class="section-buttons manage-customers">
-    				<input type="text" class="form-control" placeholder="Search another customer"><a href=""><i class="icon-search"></i></a>
-    			</div>
-    		</div>
-            
-            <!-- Result Display -->
-            <div class="col-md-4">
-                <div class="result-count">
-                    <p>14 Results Found</p>
-                    <ul class="pagination">
-                        <li>
-                          <a href="#" aria-label="Previous">
-                            <i class="icon-back-arrow"></i>
-                          </a>
-                        </li>
-                        <li><a href="#" data-type="text">1</a></li>
-                        <li>
-                          <a href="#" aria-label="Next">
-                             <i class="icon-forward-arrow"></i>
-                          </a>
-                        </li>
-                    </ul>
-                </div>         
-            </div>
-        
             
             <!-- DOMAIN LIST DISPLAY -->
-            <div>
+            <div class="col-md-8 col-md-offset-2">
+              <div class="search">
                 <div class="spacer-l"></div>
-                <div class="action-hr"></div>
-                <table class="table customer-list">
-                    <thead>
-                      <tr>
-                        <th>Code</th>
-                        <th>Customer</th>
-                        <th>Manager</th>
-                        <th>Team</th>
-                        <th>Status</th>
-                        <th></th>
-                        <th>Customer Of</th>
-                      </tr>
-                    </thead>
-                    <tbody class="checked">
-                      <tr>
-                         <td><input id="1" class="css-checkbox" name="1" type="checkbox">
-                            <label for="1" class="css-label"><span class="cb-label">1</span></label></td>
-                        <td><a href="#">Bhavin Chandrana Profile</a></td>
-                        <td>Asmitabh</td>
-                        <td><a herf="#">System Access</a></td>
-                        <td>Active</td>
-                        <td><a href="#">Add Note</a></td>
-                        <td>IndiaLinks</td>
-                      </tr>
-                      
-                    </tbody>
-                    
-                  </table>
-            </div>
-            
-            <!-- Bulk Actions -->
-    		<div class="col-md-3">
-    			<div class="manage-customer">
-                    <h5>Customer Status</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>
-                    
-    			</div>
-    		</div>
-            
-            <div class="col-md-3">
-    			<div class="manage-customer">
-                    <h5>Premier Status</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>
-                    
-    			</div>
-    		</div>
-            
-            <div class="col-md-3">
-    			<div class="manage-customer">
-                    <h5>Live Support Team</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>
-                    
-    			</div>
-    		</div>
-            
-            <div class="col-md-3">
-    			<div class="manage-customer">
-                    <h5>Account Manager</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>   
-    			</div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">    
-                        <div class="manage-customer">
-                            <button class="btn btn-large btn-primary btn-text" type="submit"><span style="letter-spacing: 1px;">APPLY</span></button>
-                        </div> 	
+                <h5>Search Criteria</h5>
+                <div class="btn-group">
+                  <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Customer Code<i class="icon-down-arrow"></i></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Edit</a></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
                 </div>
+
+                <div class="spacer-m"></div>
+                <h5>Search String</h5>
+                  <div class="form-group">
+                        <input type="text" class="form-control" id="customer-code" placeholder="Username">
+                  </div>   
+              </div>
             </div>
-            
+            <div class="col-md-4 col-md-offset-4">
+              <div class="search">
+                    <button class="btn btn-large btn-primary btn-text" type="submit"><i class="icon-search"></i><span style="top: 15px; letter-spacing: 1px;position: absolute;left: 150px;">SEARCH</span></button>
+              </div>  
+            </div>
     	</div>
       
       <div class="spacer-m"></div> 
