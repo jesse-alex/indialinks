@@ -93,7 +93,7 @@ hr {
 
 -------------------------------------------------*/
 
-.login .btn-primary, .register .btn-primary, .access-control .btn-primary {
+.login .btn-primary, .register .btn-primary {
     background-color: #fcbc2c;
     border: none;
     width: 290px;
@@ -102,7 +102,7 @@ hr {
     height: 43px;
     margin: 1px 0;
 }
-.login .btn-primary:hover,.register .btn-primary:hover, .access-control .btn-primary:hover {
+.login .btn-primary:hover,.register .btn-primary:hover {
     background-color: #fdc956;
 }
 
@@ -883,11 +883,11 @@ hr {
 }
 
 .table>thead:first-child>tr:first-child>th {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .table>tfoot>tr>td {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -994,46 +994,6 @@ td:first-child, th:first-child {
 .disk-usage td:nth-child(7), .disk-usage th:nth-child(7) {
     text-align: right;
 }
-
-/* CUSTOMER LIST TABLE */
-
-.customer-list td:nth-child(1), .customer-list th:nth-child(1) {
-    text-align: left;
-    width: 10px;
-    height: 47px;
-}
-
-.customer-list td:nth-child(2), .customer-listth:nth-child(2) {
-    width: 200px;
-    text-align: left;
-}
-
-.customer-list td:nth-child(3), .customer-list th:nth-child(3) {
-    width: 120px;
-}
-
-.customer-list td:nth-child(4), .customer-list th:nth-child(4) {
-    text-align: left;
-    width: 150px;
-}
-.customer-list td:nth-child(5), .customer-list th:nth-child(5) {
-    text-align: center;
-    width: 100px;
-}
-.customer-list td:nth-child(5) {
-    color: #00AC68;
-}
-.customer-list tfoot>tr>td:nth-child(5) {
-    color: #5E5D5D;
-}
-.customer-list td:nth-child(6), .customer-list th:nth-child(6) {
-    text-align: center;
-    width: 250px;
-    padding-left: 30px;
-}
-.customer-list td:nth-child(7), .customer-list th:nth-child(7) {
-    text-align: right;
-}
 /*--------  Section Form --------*/
 
 .section-form .col-md-4 {
@@ -1111,33 +1071,15 @@ option {
 }
 
 
-/* -------------- REGISTER & ACCESS CONTROL PAGE ------------*/
-.register, .access-control {
+/* -------------- REGISTER PAGE ------------*/
+.register {
     position: relative;
     top: 50px;
     left: -12px;
 }
 
-.register-left hr, .register-center hr {
+.register-left hr, .register-center hr, .register-right hr {
     border-top: 1px solid #ccc;
-    width: 290px;
-    position: relative;
-    top: 40px;
-    padding-bottom: 30px;
-    margin-left: 0;
-}
-
-.access-control-left hr{
-    border-top: 2px solid #868585;
-    width: 290px;
-    position: relative;
-    top: 40px;
-    padding-bottom: 30px;
-    margin-left: 0;
-}
-
-.access-control-center hr {
-    border-top: 2px solid #868585;
     width: 290px;
     position: relative;
     top: 40px;
@@ -1154,17 +1096,7 @@ option {
     margin-left: 0;
 }
 
-.access-control-right hr {
-    border-top: 2px solid #868585;
-    width: 290px;
-    position: relative;
-    top: 40px;
-    padding-bottom: 30px;
-    margin-left: 0;
-}
-
-
-.register-left .form-control, .access-control-left .form-control {
+.register-left .form-control {
     border-radius: 2px;
     position: relative;
     top: 0px;
@@ -1172,31 +1104,23 @@ option {
     box-shadow: none;
 }
 
-.register-left, .access-control-left {
+.register-left {
     float: left;
     width: 290px;
 }
 
-.register-center, .access-control-center {
-    width: 315px;
-    padding-left: 25px;
+.register-center {
+    width: 290px;
 }
 
-.access-control-center-bottom {
-    margin-top: 75px;
-}
-
-.register-right, .access-control-right {
+.register-right {
     float: right;
     width: 290px;
-    right: -10px;
-    position: absolute;
 }
 
-.access-control-bottom-hr {
-    border-top: 2px solid #868585;
-    position: relative;
-    top: 367px;
+.register h5 {
+    color: #0083ca;
+    padding-left: 12px;
 }
 
 .register-ext {
@@ -1205,40 +1129,26 @@ option {
     padding-bottom: 15px;
 }
 
-.register-ext .checkbox-inline, .access-control .checkbox-inline {
+.register-ext .checkbox-inline {
     padding: 0px 10px 14px 15px;
     width: 59px;
 }
 
-.register input[type=checkbox], .access-control input[type=checkbox] {
+.register input[type=checkbox] {
     margin: 2px 0 0 -16px;
     margin-top:1px \9;
     line-height:normal
 }
 
-.access-control-ext {
-    position: relative;
-    padding-bottom: 15px;
+.register-freebies {
 }
 
-.access-control .checkbox {
-    padding: 5px 12px 15px;
-    border-bottom: #ccc solid 1px;
-}
-
-.access-control .checkbox label {
-    min-height: inherit;   
-}
-
-.access-control .cb-label {
-    margin-left: -45px;
-}
 .freebies-tooltip + .tooltip > .tooltip-inner {
     background-color: #fff;
     font-family: "Roboto Condensed";
     color:#0083ca;
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 190px;
     position: relative;
     width: 90px;
@@ -1268,7 +1178,7 @@ option {
     font-family: "Roboto Condensed";
     color:#0083ca;
     position: relative;
-    top: -102px;
+    bottom: 100px;
     left: 190px;
     position: relative;
     width: 90px;
@@ -1278,100 +1188,6 @@ option {
     font-size: 11px;
     font-weight: normal;
     border-radius: 0px;
-}
-
-/* TOOLTIP INNER FOR ACCESS CONTROL PAGE */
-
-.access-control-tooltip + .tooltip > .tooltip-inner {
-    background-color: #fff;
-    font-family: "Roboto Condensed";
-    color:#0083ca;
-    top: -20px;
-    left: 7px;
-    position: absolute;
-    width: 130px;
-    border: #0083ca 1px solid;
-    text-align: left;
-    font-size: 11px;
-    font-weight: normal;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-.access-control-tooltip-left + .tooltip > .tooltip-inner {
-    background-color: #fff;
-    font-family: "Roboto Condensed";
-    color:#0083ca;
-    top: -20px;
-    left: 0px;
-    position: absolute;
-    width: 130px;
-    border: #0083ca 1px solid;
-    text-align: left;
-    font-size: 11px;
-    font-weight: normal;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-.access-control-tooltip-bottom + .tooltip > .tooltip-inner {
-    background-color: #fff;
-    font-family: "Roboto Condensed";
-    color:#0083ca;
-    top: -20px;
-    left: 110px;
-    position: absolute;
-    width: 130px;
-    border: #0083ca 1px solid;
-    text-align: left;
-    font-size: 11px;
-    font-weight: normal;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-
-
-.access-control-tooltip + .tooltip > .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 0 5px 7px;
-    border-color: transparent transparent transparent #0082C9;
-    font-size: 0;
-    line-height: 0;
-    margin-left: 137px;
-    margin-top: -4px;
-    z-index: 2;
-}
-
-.access-control-tooltip-left + .tooltip > .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 0 5px 7px;
-    border-color: transparent transparent transparent #0082C9;
-    font-size: 0;
-    line-height: 0;
-    margin-left: 130px;
-    margin-top: -4px;
-    z-index: 2;    
-}
-
-.access-control-tooltip-bottom + .tooltip > .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 0 5px 7px;
-    border-color: transparent transparent transparent #0082C9;
-    font-size: 0;
-    line-height: 0;
-    margin-left: 240px;
-    margin-top: 0px;
-    z-index: 2;
 }
 
 .register-title {
@@ -1508,85 +1324,4 @@ label.css-agree {
     font-size: 14px;
     width: 100%;
     text-align: center;
-}
-
-/* SEARCH BAR */
-.section-buttons .form-control {
-    width: 260px;
-    border-radius: 2px;
-    height: 32px;
-}
-
-.manage-customer {
-    position: absolute;
-    left: 12px; 
-}
-
-.manage-customer h5 {
-    font-size: 12px;
-    font-weight: bold;
-    color: #0082C9;
-    position: relative;
-    left: -14px;
-    top: 0;
-}
-
-.manage-customer .btn-group .btn {
-    width: 225px;
-    height: 34px;
-    background-color: #fff;
-    border-color: rgba(0,0,0,0.1);
-    text-align: left;
-    font-size: 12px;
-    color: #5E5D5D;
-    border-radius: 2px;
-    position: absolute;
-    left: -24px;
-    top: -20px;
-}
-
-
-.manage-customer .icon-down-arrow  {
-    font-size: 8px;
-    padding-left: 120px;
-    color: #0082C9;
-}
-
-.manage-customer .btn-group .dropdown-menu {
-    background-color: #fff;
-    width: 225px;
-    border-radius: 2px;
-    border: none;
-    left: -24px;
-    top: 12px;
-}
-
-.manage-customer .btn-group .dropdown-menu>li>a{
-    color: #868585; 
-    font: 14px 'Roboto Condensed', sans-serif;
-    font-weight: bold;    
-    width: 225px;
-    height: 37px;
-    padding: 10px 12px 0;
-    border: none;
-    display: block;
-    margin:-3px 0;
-}    
-
-.manage-customer .btn-group .dropdown-menu a:hover, .btn-group .dropdown-menu a:focus {
-    color: #868585;   
-    background-color: #f9f9f9;
-}
-
-.manage-customer .btn-primary {
-    background-color: #fcbc2c;
-    border: none;
-    width: 480px;
-    border-radius: 2px;
-    font-weight: bold;
-    height: 43px;
-    margin: 90px 60px;
-}
-.manage-customer .btn-primary:hover {
-    background-color: #fdc956;
 }

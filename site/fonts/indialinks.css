@@ -210,36 +210,3 @@ i {
 .icon-new-tab {
     padding-left: 5px;
 }
-
-.access-control-ext .icon-info-inactive {
-    font-size: 15px;
-    position: absolute;
-    top: 10px;
-    left: 265px;
-}
-
-.access-control-ext .icon-info-inactive:hover:before {
-    content: "\e60c";
-    text-decoration: none;
-    color:#0083ca;
-}
-
-
-.icon-new-tab {
-    padding-left: 5px;
-}
-
-.icon-search {
-    background-color: #0082C9;
-    color: #fff;
-    padding:  5px;
-    border-radius: 2px;
-    position: relative;
-    left: 229px;
-    top: -26px;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
