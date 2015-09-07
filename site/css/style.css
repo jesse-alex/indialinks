@@ -31,6 +31,11 @@ h3 {
     font-size: 21px;
 }
 
+.access-control h5, .register h5 {
+    color: #337ab7;
+    padding-left: 12px;
+}
+
 .footer {
     background-color: #004164;
     border-radius: 0px;
@@ -62,6 +67,12 @@ hr {
     width: 1000px;
 }
 
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
 /*--------- SPACER ----------*/
 .spacer-xs {
     margin-bottom: 10px;
@@ -85,6 +96,26 @@ hr {
     margin-bottom: 140px;
 }
 .nav-spacer {  margin-top: 40px; }
+
+/* -----------------------------------------------
+
+           CUSTOM SCROLLBAR
+
+-------------------------------------------------*/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
 
 
 /* -----------------------------------------------
@@ -1270,7 +1301,7 @@ option {
     font-family: "Roboto Condensed";
     color:#0083ca;
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 190px;
     position: relative;
     width: 90px;
@@ -1547,6 +1578,7 @@ label.css-agree {
     width: 260px;
     border-radius: 2px;
     height: 32px;
+    box-shadow: none;
 }
 
 .manage-customer {
@@ -1662,8 +1694,8 @@ label.css-agree {
 .search .btn-group .dropdown-menu>li>a{
     color: #868585; 
     font: 14px 'Roboto Condensed', sans-serif;
-    font-weight: bold;    
-    width: 619px;
+    font-weight: normal;    
+    width: 625px;
     height: 37px;
     padding: 10px 12px 0;
     border: none;
@@ -1709,4 +1741,62 @@ label.css-agree {
 }
 .search .btn-primary:hover {
     background-color: #fdc956;
+}
+
+
+/* MANAGED ZONE PAGE */
+.manage-zone {
+    height: auto;
+    width: 1004px;
+    border-radius: 2px;
+    position: relative;
+    left: -27px;
+    top: -20px;
+}
+
+.manage-zone .title {
+    background-color: #fcf2d5;
+    height: 40px;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #5f5e5e;
+    border: #FBBB2B 1px solid;
+}
+
+.manage-zone .domains {
+    background-color: #fffcf7;
+    font-size: 14px;
+    color: #5E5D5D;
+    padding: 10px 24px;
+    height: 70px;
+    border: #FBBB2B 1px solid;
+    position: relative;
+    top: -11px;
+    height: 180px;
+}
+
+.manage-zone .white-title, .manage-zone .white-desc {
+    border: #FBBB2B 1px solid;
+    position: relative;
+    left: -31px;
+    width: 614px;
+    padding: 10px 120px 10px 24px;
+    height: 180px;
+}
+
+.manage-zone .white-title {
+    height: 40px;
+}
+
+.manage-zone .white-desc {
+    top: -11px;
+    font-size: 16px;
+}
+
+.manage-zone td {
+    position: relative;
+    padding: 10px 20px;
+    text-align: left;
+    left: -20px;
 }

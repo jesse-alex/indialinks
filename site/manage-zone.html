@@ -126,8 +126,8 @@
     		<div class="row">
     			<div class="col-md-8">
     				<div id="section-head">
-    					<h3>Search Customers</h3>
-    					<p>Use below form to search customers</p>
+    					<h3>Manage Zone</h3>
+    					<p>DNZ Zone for <span class="highlight">xyz.com.</span> is configured on following nameservers</p>
     				</div>
     			</div>
     			<div class="col-md-4">
@@ -136,45 +136,47 @@
 						</div>
 					</div>
     		</div>
-            
-            <!-- DOMAIN LIST DISPLAY -->
-            <div class="col-md-8 col-md-offset-2">
-              <div class="search">
-                <div class="spacer-l"></div>
-                <h5>Search Criteria</h5>
-                <div class="btn-group">
-                  <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Customer Code<i class="icon-down-arrow"></i></button>
-                    <ul class="dropdown-menu scrollable-menu">
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                      <li><a href="#">CO1245-564-4654</a></li>
-                    </ul>
-                </div>
+            <div class="spacer-m"></div>
+                                 
+            <!-- MANAGE ZONE INFO -->
+            <div class="manage-zone">
+            	<div class="col-md-5">
+            		<h5 class="title">Name Servers from DNZ Zone - xyz.com</h5>
+            		<div class="domains">
+            			<table>
+            				<tr>
+            					<td>Primary DNS</td>
+            					<td>ns5.indialinks.com</td>
+            				</tr>
+            				<tr>
+            					<td>Secondary DNS</td>
+            					<td>ns6.indialinks.com</td>
+            				</tr>
+            				<tr>
+            					<td>Teritary DNS</td>
+            					<td>ns7.indialinks.com</td>
+            				</tr>
+            				<tr>
+            					<td>Quaternary DNS</td>
+            					<td>ns8.indialinks.com</td>
+            				</tr>
+            			</table>
+            		</div>
+            	</div>
 
-                <div class="spacer-m"></div>
-                <h5>Search String</h5>
-                  <div class="form-group">
-                        <input type="text" class="form-control" id="customer-code" placeholder="Username">
-                  </div>   
-              </div>
+            	<div class="col-md-7">
+            		<h5 class="white-title">Please note</h5>
+            		<p class="white-desc">Your domain name must be set to use these nameservers at the registry. You should be able to set the nameservers from your domain registration provider's control panel.</p>
+            	</div>
+
             </div>
-            <div class="col-md-4 col-md-offset-4">
-              <div class="search">
-                    <button class="btn btn-large btn-primary btn-text" type="submit"><i class="icon-search"></i><span style="top: 15px; letter-spacing: 1px;position: absolute;left: 150px;">SEARCH</span></button>
-              </div>  
+            
+            <div class="col-md-10 col-md-offset-1">
+                <div class="agreement">
+                    <input id="accept" class="css-checkbox" name="accept" type="checkbox">
+	           		<label for="accept" class="css-agree">I accept that I have read the <a href="#">Master Service Agreement</a>, <a href="#">AUP</a> and <a href="#">Registrar Agreement</a> of the IndiaLinks and I agree to all the terms therein.</label>
+                    <button type="button" class="btn apply">Apply</button>
+                </div>
             </div>
     	</div>
       
@@ -187,7 +189,7 @@
           IndiaLinks&copy;2015 
         </div>
       </div>
-      </div>
+    </div>
       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
