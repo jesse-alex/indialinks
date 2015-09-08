@@ -1617,8 +1617,8 @@ label.css-agree {
 }
 
 .manage-customer {
-    position: absolute;
-    left: 12px; 
+    position: relative;
+    left: -5px;
 }
 
 .manage-customer h5 {
@@ -1679,11 +1679,11 @@ label.css-agree {
 .manage-customer .btn-primary {
     background-color: #fcbc2c;
     border: none;
-    width: 480px;
+    width: 485px;
     border-radius: 2px;
     font-weight: bold;
     height: 43px;
-    margin: 90px 60px;
+    margin: 20px 81px;
 }
 .manage-customer .btn-primary:hover {
     background-color: #fdc956;
