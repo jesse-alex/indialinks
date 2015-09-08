@@ -170,12 +170,161 @@
             	</div>
 
             </div>
+
+            <div class="row">
+            	<div class="zone-records">
+	    			<div class="col-md-8">
+	    				<div id="section-head">
+	    					<h3>Current Zone Records</h3>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-4">
+		                <div class="record-count">
+		                    <p>Zone Record 6</p>
+		                    <ul class="pagination">
+		                        <li>
+		                          <a href="#" aria-label="Previous">
+		                            <i class="icon-back-arrow"></i>
+		                          </a>
+		                        </li>
+		                        <li><a href="#" data-type="text">1</a></li>
+		                        <li>
+		                          <a href="#" aria-label="Next">
+		                             <i class="icon-forward-arrow"></i>
+		                          </a>
+		                        </li>
+		                    </ul>
+		                </div>         
+	           		</div>
+	           	</div>
+    		</div>
+
+    		 <!-- DOMAIN LIST DISPLAY -->
+            <div class="zone-records-list">
+                <div class="action-hr"></div>
+                <table class="table zone-record">
+                    <thead>
+                      <tr>
+                        <th>No.</th>
+                        <th>Domain Name (Host Name)</th>
+                        <th>Record Type</th>
+                        <th>Prioroity</th>
+                        <th>Record Value</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <td>No.</td>
+                        <td>Domain Name (Host Name)</td>
+                        <td>Record Type</td>
+                        <td>Priority</td>
+                        <td>Record Value</td>
+                      </tr>
+                    </tfoot>
+                    <tbody>
+                      <tr>
+                         <td><input id="1" class="css-checkbox" name="1" type="checkbox">
+                            <label for="1" class="css-label"><span class="cb-label">1</span></label></td>
+                        <td><a href="#">indialinks.com</a></td>
+                        <td>A</td>
+                        <td></td>
+                        <td>216.169.121.108</td>
+                      </tr>
+                      
+                      <tr>
+                         <td><input id="2" class="css-checkbox" name="2" type="checkbox">
+                            <label for="2" class="css-label"><span class="cb-label">2</span></label></td>
+                        <td><a href="#">indialinks.com</a></td>
+                        <td>MX</td>
+                        <td>10</td>
+                        <td>mx1.mailexchange.in</td>
+                      </tr>
+
+                      <tr>
+                         <td><input id="3" class="css-checkbox" name="3" type="checkbox">
+                            <label for="3" class="css-label"><span class="cb-label">3</span></label></td>
+                        <td><a href="#">indialinks.com</a></td>
+                        <td>MX</td>
+                        <td>20</td>
+                        <td>mx1.mailexchange.in</td>
+                      </tr>
+
+                      <tr>
+                         <td><input id="4" class="css-checkbox" name="4" type="checkbox">
+                            <label for="4" class="css-label"><span class="cb-label">4</span></label></td>
+                        <td><a href="#">indialinks.com</a></td>
+                        <td>A</td>
+                        <td></td>
+                        <td>216.169.121.108</td>
+                      </tr>
+
+                      <tr>
+                         <td><input id="5" class="css-checkbox" name="5" type="checkbox">
+                            <label for="5" class="css-label"><span class="cb-label">5</span></label></td>
+                        <td><a href="#">indialinks.com</a></td>
+                        <td>A</td>
+                        <td></td>
+                        <td>216.169.121.108</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
             
             <div class="col-md-10 col-md-offset-1">
-                <div class="agreement">
-                    <input id="accept" class="css-checkbox" name="accept" type="checkbox">
-	           		<label for="accept" class="css-agree">I accept that I have read the <a href="#">Master Service Agreement</a>, <a href="#">AUP</a> and <a href="#">Registrar Agreement</a> of the IndiaLinks and I agree to all the terms therein.</label>
-                    <button type="button" class="btn apply">Apply</button>
+                <div class="zone-details">
+                	<button type="button" class="btn delete">DELETE</button>
+                    
+                    <div class="manage-zone-detail">
+                    	<div class="title">
+                    		<p class="col-md-6">Domain Name (Host Name)</p>
+                    		<p class="col-md-2" style="text-align:right">Record Type</p>
+                    		<p class="col-md-2">Priority</p>
+                    		<p class="col-md-2">Record Value</p>
+                    	</div>
+                    	<div class="desc">
+                    		<div class="col-md-6">
+                    			<div class="form-group">
+	                        		<input type="text" class="form-control" id="customer-code" placeholder="Leave Domain Name/Host Name blank to add record for master domain">
+	                        		<a href="">indialinks.com</a>
+                 				</div>
+                    		</div>
+
+                    		<div class="col-md-2">
+                    			<div class="btn-group">
+			    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 60px;">A<i class="icon-down-arrow"></i></button>
+			    					<ul class="dropdown-menu">
+									    <li><a href="#">A</a></li>
+									    <li><a href="#">MX</a></li>
+								 	</ul>
+								</div>
+                    		</div>
+
+                    		<div class="col-md-2">
+                    			<div class="manage-zone-detail-priority">
+	                    			<div class="btn-group">
+				    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: -50px;">1<i class="icon-down-arrow"></i></button>
+				    					<ul class="dropdown-menu">
+										    <li><a href="#">10</a></li>
+										    <li><a href="#">20</a></li>
+									 	</ul>
+									</div>
+								</div>
+                    		</div>
+
+                    		<div class="col-md-2">
+                    			<div class="form-group">
+	                        		<input type="text" class="form-control" id="customer-code" placeholder="216.169.121.108" style="width:137%">
+                 				</div>
+                    		</div>
+
+                    		
+                    	</div>
+                    	<p class="spacer-xl"></p>
+
+                    	<button type="button" class="btn apply">ADD</button>
+                    </div>
+
+                    
                 </div>
             </div>
     	</div>
