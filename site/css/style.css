@@ -900,7 +900,7 @@ hr {
     border-color: rgba(100,100,100,0.2);
     position: relative;
     width: 1000px;
-    margin-left: -12px;
+    margin-left: -27px;
 }
 
 .hr {
@@ -936,7 +936,7 @@ hr {
 }
 .result-count .pagination, .record-count .pagination {
     display: inline-block;
-    margin: 15px -30px 15px 0;
+    margin: 15px -28px 15px 0;
 }
 
 /*------------- TABLE -------------*/
@@ -1018,7 +1018,7 @@ td:first-child, th:first-child {
 .table-agree .renewal-select {
    width: 225px;
    height: 34px;
-   background: url(../img/up-arrow.png)no-repeat 92% 50% #FFF;
+   background: url(../img/up-arrow.png)no-repeat 85% 50% #FFF;
    background-position-x: 210px;
 }
 
@@ -1027,6 +1027,7 @@ td:first-child, th:first-child {
     border: none;
 }
 
+.renewdomains {position: relative;left:-15px;width:1000px}
 
 /* DISK USAGE TABLE */
 
@@ -1061,6 +1062,9 @@ td:first-child, th:first-child {
     text-align: right;
 }
 
+.diskusage {position: relative;left:-15px;width:1000px}
+
+
 /* CUSTOMER LIST TABLE */
 
 .customer-list td:nth-child(1), .customer-list th:nth-child(1) {
@@ -1094,7 +1098,7 @@ td:first-child, th:first-child {
 }
 .customer-list td:nth-child(6), .customer-list th:nth-child(6) {
     text-align: center;
-    width: 250px;
+    width: 230px;
     padding-left: 30px;
 }
 .customer-list td:nth-child(7), .customer-list th:nth-child(7) {
@@ -1102,7 +1106,7 @@ td:first-child, th:first-child {
 }
 
 .customerlist {
-position: relative;top: -5px;}
+position: relative;top: -5px;left: -15px;width: 1000px}
 
 
 /* DOMAIN PRICING TABLE */
@@ -1136,6 +1140,7 @@ position: relative;top: -5px;}
     border: none;
 }
 
+.domainpricing {position: relative;left: -15px;width: 1000px;}
 
 /* ZONE RECORDS */
 
@@ -1278,7 +1283,7 @@ option {
 
 .register-right hr {
     border-top: 1px solid #ccc;
-    width: 315px;
+    width: 290px;
     position: relative;
     top: 40px;
     padding-bottom: 30px;
@@ -1606,6 +1611,10 @@ label.css-agree {
 }
 
 /* REGISTER DOMAIN PURCHASE INFORMATION PAGE */
+.registerdomain {
+    width: 1000px;
+}
+
 .domain-purchase-info {
     border: #FBBB2B 1px solid;
     height: auto;
@@ -1877,6 +1886,13 @@ label.css-agree {
 .zone-records-list {
     position: relative;
     top: -50px;
+    width: 1000px;
+    left: -15px;
+}
+
+.zone-records-list .action-hr, .registerdomain .action-hr, .renewdomains .action-hr{
+    left: 15px;
+    position: relative;
 }
 
 .manage-zone-detail {
