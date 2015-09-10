@@ -949,6 +949,7 @@ hr {
 
 .table>thead:first-child>tr:first-child>th {
     font-size: 14px;
+    vertical-align: middle;
 }
 
 .table>tfoot>tr>td {
@@ -975,7 +976,6 @@ td:last-child, th:last-child {
 .table {
     width:1000px;
     margin-left: -12px;
-    margin-top: -7px;
 }
 
 td:first-child, th:first-child {
@@ -1102,7 +1102,7 @@ td:first-child, th:first-child {
 }
 
 .customerlist {
-position: relative;top: -10px;}
+position: relative;top: -5px;}
 
 
 /* DOMAIN PRICING TABLE */
@@ -1124,6 +1124,7 @@ position: relative;top: -10px;}
     text-align: left;
     height: 40px;
     font-weight: bold;
+    vertical-align: middle;
 }
 
 .domain-pricing td, .domain-pricing th {
