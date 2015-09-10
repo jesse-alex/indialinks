@@ -2072,7 +2072,7 @@ position: relative;}
     width: 310px;
 }
 
-.alert .tooltip, .alert .tooltip-inner, .alert .tooltip-arrow  {
+.has-error .tooltip, .has-error .tooltip-inner, .has-error .tooltip-arrow  {
   display: none;
 }
 
