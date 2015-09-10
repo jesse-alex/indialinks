@@ -8,7 +8,11 @@
       
     <!-- Normalize, Bootstrap & Custom CSS -->
     <link href ="css/bootstrap.min.css" rel = "stylesheet">
-		<link href ="css/style.css" rel = "stylesheet">
+	<link href ="css/style.css" rel = "stylesheet">
+
+	<style>
+		form .alert {display: none;}
+	</style>
       
 
   	<!-- INDIALINKS CUSTOM ICON FONTS -->	
@@ -114,7 +118,7 @@
                     <li><a href="#">Option 6</a></li>
                     <li><a href="#">Option 7</a></li>
                     <li><a href="#">Option 8</a></li>
-                    <li><a href="#">Option 9</a></li>
+                    <li><a href="#">Option 9</a></li> 
                     <li><a href="#">Option 10</a></li>
                 </ul>
             </div>
@@ -132,39 +136,46 @@
 	    				</div>
 	    			</div>
 	    			<div class="col-md-4">
-							<div class="alert alert-help text-center" role="alert">
+							<div class="ask ask-help text-center">
 								<a href ="#"><i class="icon-chat"></i><h4>NEED HELP? CLICK AND JUST ASK!</h4></a>
 							</div>
 					</div>
 				</div>
     		</div>
     
-            <form class="section-form">
-                <div class="col-md-4">        
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="customer-code" placeholder="Customer Code">
-                    </div>
-            </div>
-            
-            <div class="col-md-4">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="address-two" placeholder="Address Two">
-                    </div>
-            </div>
-            
-            <div class="col-md-4">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="lorem ipsum" placeholder="Lorem Ipsum">
-                    </div>
-                    <div>
-                        <div class="col-md-6">
-                            <button class="btn btn-default" style="margin-left:-15px;" type="clear">Cancel</button>
-                        </div>
-                        <div class="col-md-6 section-form-submit">
-                            <button class="btn btn-default" type="submit">Save Changes</button>
-                        </div>
-                    </div>
-                </div>
+            <form class="form-validation">
+            	<fieldset style="margin-top: 15px;">
+
+            		 <div class="alert alert-danger alert-close"> </div>
+
+	                <div class="col-md-4" style="margin-left: -28px;">        
+	                    <div class="form-group">
+	                        <input data-title="We need you to fill the red spaces" name="customer-code" class="form-control" data-require="yes" placeholder="Customer Code" data-regex="^[0-9]{6,20}$">
+	                    </div>
+	           		</div>
+	            
+		            <div class="col-md-4" style="margin-left: 20px;">
+		                    <div class="form-group">
+		                        <input data-title="We need you to fill the red spaces" name="address-two" class="form-control" data-require="yes" placeholder="Address Two" data-regex="^(?![0-9]).*?$">
+		                    </div>
+		            </div>
+	            
+		            <div class="col-md-4" style="padding-left: 35px;">
+		                <div class="form-group">
+		                    <input type="text" class="form-control" id="lorem ipsum" placeholder="Lorem Ipsum">
+		                </div>
+
+		                <div>
+		                    <div class="col-md-6 section-form-cancel">
+		                        <button class="btn btn-default" style="margin-left:-15px;" type="reset">Cancel</button>
+		                    </div>
+
+		                    <div class="col-md-6 section-form-submit">
+		                        <button class="btn btn-default" type="submit">Save Changes</button>
+		                    </div>
+		                </div>    
+		            </div>
+		        </fieldset>
             </form>            
     	</div>
     
@@ -183,6 +194,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/bootstrap.validator.js"></script>
+
+        <script>
+			$('form').bootstrap3Validate(function(e, data) {
+				e.preventDefault();
+
+			    alert(JSON.stringify(data));
+			});
+		</script>
 
     </body>
 </html>

@@ -37,7 +37,7 @@ h3 {
 }
 
 .footer {
-    background-color: #004164;
+    background-color: #002032;
     border-radius: 0px;
     height: 30px;
     padding: 10px 0px;
@@ -73,12 +73,16 @@ hr {
     overflow-x: hidden;
 }
 
+
 /*--------- SPACER ----------*/
 .spacer-xs {
     margin-bottom: 10px;
 }
 .spacer-s {
     margin-bottom: 20px;
+}
+.spacer-s-m {
+    margin-bottom: 30px;
 }
 .spacer-m {
     margin-bottom: 40px;
@@ -133,6 +137,7 @@ hr {
     height: 43px;
     margin: 1px 0;
 }
+
 .login .btn-primary:hover,.register .btn-primary:hover, .access-control .btn-primary:hover {
     background-color: #fdc956;
 }
@@ -215,6 +220,25 @@ hr {
     background-color: #dfdfdf;
 }
 
+
+.section-form-cancel .btn {
+    background-color: #f9f9f9;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    color: #3580c7;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    width: 150px;
+    margin-left: -32px;
+    height: 45px;
+}
+
+.section-form-cancel .btn:hover {
+    background-color: #dfdfdf;
+}
+
 .section-form-submit .btn {
     background-color: #fcbc2c;
     border-color: #fcbc2c;
@@ -223,6 +247,9 @@ hr {
     text-transform: uppercase;
     color: #fff;
     border-radius: 2px;
+    width: 150px;
+    margin-left: 5px;
+    height: 45px;
 }
 
 .section-form-submit .btn:hover {
@@ -596,48 +623,49 @@ hr {
 -----------------------------------------------------------------*/
 
 /*-----  ALERT BOX -------*/
-.alert-help {
+.ask {
+    position: relative;
+    top: 15px;
+    padding: 15px;
+    left: 33px;
+}
+
+.ask-help {
   background-color: #f9f9f9;
-  border-color: #ededed;
-  position: absolute;
+  border-color: #ededed;    
   border-radius: 0;
-  top: 15px;
   width: 287px;
   height: 32px;
-  right: 0px;
   cursor: pointer;
 }
 
-.alert-help:hover {
+.ask-help:hover {
     box-shadow: 0 1px 10px #ccc;
 }
 
-.alert-help hr {
+.ask-help hr {
   border-top-color: #f7e1b5;
 }
-.alert-help h4 {
+.ask-help h4 {
     font-weight: bold;
     margin-bottom: 0;
     font-size: 14px;
     letter-spacing: 0.07px;
     margin-top: -7px;
 }
-.alert-help a{
+.ask-help h4 {
     color: #3580c7;
     text-decoration: none;
 }
-/*.alert-help a:hover {
-    color: #fff;
-    text-decoration: none;
-}*/
-.bottom-bar .alert-help {
+
+.section .bottom-bar .ask-help {
   background-color: #1484c7;
   border-color: #1484c7;
   position: relative;
   border-radius: 0;
 }
 
-.alert-help:hover {
+.section .ask-help:hover {
   box-shadow: 0px 0.5px 5px rgba(204,204,204,0.5);
     }
 
@@ -947,6 +975,7 @@ td:last-child, th:last-child {
 .table {
     width:1000px;
     margin-left: -12px;
+    margin-top: -7px;
 }
 
 td:first-child, th:first-child {
@@ -1072,6 +1101,9 @@ td:first-child, th:first-child {
     text-align: right;
 }
 
+.customerlist {
+position: relative;top: -10px;}
+
 
 /* DOMAIN PRICING TABLE */
 
@@ -1113,18 +1145,18 @@ td:first-child, th:first-child {
 }
 
 .zone-record td:nth-child(2), .zone-recordth:nth-child(2) {
-    width: 450px;
+    width: 700px;
     text-align: left;
 }
 
 .zone-record td:nth-child(3), .zone-record th:nth-child(3) {
-    width: 100px;
+    width: 110px;
     text-align: left;
 }
 
 .zone-record td:nth-child(4), .zone-record th:nth-child(4) {
     text-align: left;
-    width: 100px;
+    width: 50px;
 }
 .zone-record td:nth-child(5), .zone-record th:nth-child(5) {
     text-align: right;
@@ -1212,7 +1244,7 @@ option {
 /* -------------- REGISTER & ACCESS CONTROL PAGE ------------*/
 .register, .access-control {
     position: relative;
-    top: 50px;
+    top: 40px;
     left: -12px;
 }
 
@@ -1281,7 +1313,7 @@ option {
 }
 
 .access-control-center-bottom {
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 .register-right, .access-control-right {
@@ -1294,7 +1326,7 @@ option {
 .access-control-bottom-hr {
     border-top: 2px solid #868585;
     position: relative;
-    top: 367px;
+    top: 357px;
 }
 
 .register-ext {
@@ -1760,6 +1792,7 @@ label.css-agree {
     border-radius: 2px;
     margin-top: -12px;
     border-color: rgba(0,0,0,0.1);
+    box-shadow: none;
 }
 
 .search .btn-primary {
@@ -1791,7 +1824,7 @@ label.css-agree {
 .manage-zone .title {
     background-color: #fcf2d5;
     height: 40px;
-    padding: 10px 24px;
+    padding: 11px 24px;
     font-weight: bold;
     font-size: 14px;
     color: #5f5e5e;
@@ -1806,7 +1839,7 @@ label.css-agree {
     border: #FBBB2B 1px solid;
     position: relative;
     top: -11px;
-    height: 180px;
+    height: 160px;
 }
 
 .manage-zone .white-title, .manage-zone .white-desc {
@@ -1815,11 +1848,12 @@ label.css-agree {
     left: -31px;
     width: 614px;
     padding: 10px 120px 10px 24px;
-    height: 180px;
+    height: 160px;
 }
 
 .manage-zone .white-title {
     height: 40px;
+    color: #5f5e5e;
 }
 
 .manage-zone .white-desc {
@@ -1829,7 +1863,7 @@ label.css-agree {
 
 .manage-zone td {
     position: relative;
-    padding: 10px 20px;
+    padding: 7px 20px;
     text-align: left;
     left: -20px;
 }
@@ -1915,14 +1949,14 @@ position: relative;}
     position: relative;
     top: -20px;
     left: -24px;
-    width: 80%;
+    width: 90%;
     font-size: 13px;
 }
 
 .manage-zone-detail a {
     position: relative;
     top: -45px;
-    left: 160px;
+    left: 240px;
 }
 
 
@@ -1958,7 +1992,7 @@ position: relative;}
     background-color: #fff;
     border-radius: 2px;
     border: none;
-    left: -50px;
+    left: 0;
     top: 12px;
 }
 
@@ -1991,4 +2025,56 @@ position: relative;}
 }
 .manage-zone-detail .btn-primary:hover {
     background-color: #fdc956;
+}
+
+
+/* CUSTOMER PROFILE VALIDATION CSS */
+.alert {
+    padding: 10px;
+    margin-top: -65px;
+    border: none;
+    border-radius: 2px;
+    z-index: 999;
+    position: relative;
+    left: -12px;
+    width: 31.7%;
+    font-size: 16px;
+}
+
+.alert:after {
+    font-family: "indialinks";
+    content: "\e606";
+    font-size: 14px;
+    color: #f7dbd0;
+    float: right;
+    cursor: pointer;
+    margin-right:5px;
+}
+
+.alert-danger {
+    color: #f7dbd0;
+    background-color: #e46f4e;
+    border-color: transparent;
+}
+
+.has-error .form-control {
+    border: 2px solid #e46f4e;
+
+}
+
+.has-error .form-control:focus {
+    border: none;
+}
+
+.form-validation .form-control {
+    height: 45px;
+    width: 310px;
+}
+
+.alert .tooltip, .alert .tooltip-inner, .alert .tooltip-arrow  {
+  display: none;
+}
+
+.alert-close {
+    position: relative;
 }
