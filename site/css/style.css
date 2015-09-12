@@ -2075,8 +2075,7 @@ position: relative;}
 }
 
 .has-error .form-control {
-    border: 2px solid #e46f4e;
-
+    border: 1px solid #e46f4e;
 }
 
 .has-error .form-control:focus {
@@ -2086,6 +2085,8 @@ position: relative;}
 .form-validation .form-control {
     height: 45px;
     width: 310px;
+    box-shadow: none;
+    border-radius: 2px;
 }
 
 .has-error .tooltip, .has-error .tooltip-inner, .has-error .tooltip-arrow  {
