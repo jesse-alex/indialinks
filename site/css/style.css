@@ -795,8 +795,10 @@ hr {
 
 .section-navbar ul {
     display: block;
-    margin: 0;
-    padding: 0;
+    margin: -35px 0 -35px 0px;
+    padding: 25px 0px;
+    border-bottom: medium solid #FCB428;
+    width: 99.6%;
 }
 
 .section-navbar li {
@@ -2075,7 +2077,8 @@ position: relative;}
 }
 
 .has-error .form-control {
-    border: 1px solid #e46f4e;
+    border: 2px solid #e46f4e;
+
 }
 
 .has-error .form-control:focus {
@@ -2085,8 +2088,6 @@ position: relative;}
 .form-validation .form-control {
     height: 45px;
     width: 310px;
-    box-shadow: none;
-    border-radius: 2px;
 }
 
 .has-error .tooltip, .has-error .tooltip-inner, .has-error .tooltip-arrow  {
