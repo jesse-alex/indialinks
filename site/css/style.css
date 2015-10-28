@@ -384,7 +384,7 @@ hr {
     background-color: #006197;
 }
 
-.navbar-wrapper .dropdown-menu>li>a:hover:after, .navbar-wrapper .dropdown-menu>li:focus:after, .navbar-wrapper .dropdown-menu>li:active:after{
+.navbar-wrapper .dropdown-menu>li>a:hover:after, .navbar-wrapper .dropdown-menu>li:focus:after{
     content: "\e60b";
     font-family: 'indialinks';
     float: right;
@@ -2060,7 +2060,7 @@ position: relative;}
     font-size: 16px;
 }
 
-.alert:after {
+/*.alert:after {
     font-family: "indialinks";
     content: "\e606";
     font-size: 14px;
@@ -2068,7 +2068,7 @@ position: relative;}
     float: right;
     cursor: pointer;
     margin-right:5px;
-}
+}*/
 
 .alert-danger {
     color: #f7dbd0;
@@ -2090,8 +2090,14 @@ position: relative;}
     width: 310px;
 }
 
-.has-error .tooltip, .has-error .tooltip-inner, .has-error .tooltip-arrow  {
-  display: none;
+.has-error .tooltip, .has-error .tooltip-inner {
+    position: relative;
+    margin: 85px 10px 0;
+    padding: 5px 10px;
+
+}
+.has-error .tooltip-arrow {
+    display: none;
 }
 
 .alert-close {
