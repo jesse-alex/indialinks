@@ -136,6 +136,12 @@ i {
     padding-left: 8px;
 }
 
+.section-sub-form .icon-down-arrow {
+	float: right;
+	padding-top: 5px;
+	color: #0083ca;
+}
+
 .icon-profile, .icon-settings, .icon-logout {
 	font-size: 20px;
 /*	color: #3580c7;*/
@@ -202,6 +208,12 @@ i {
     position: relative;
     top: -45px;
     right: -190px;
+}
+
+.section-sub-form .icon-info-inactive {
+	right: -110px;
+	top: -30px;
+	float: right;
 }
 
 .icon-info-inactive:hover:before {

@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 {
     font-size: 21px;
-    color: #0083ca;
 }
 
 .access-control h5, .register h5 {
@@ -232,7 +231,7 @@ hr {
     border-radius: 2px;
     letter-spacing: 0.5px;
     width: 150px;
-    margin-left: 125px;
+    margin-left: -32px;
     height: 45px;
 }
 
@@ -249,9 +248,8 @@ hr {
     color: #fff;
     border-radius: 2px;
     width: 150px;
-    margin-left: 285px;
+    margin-left: 5px;
     height: 45px;
-    margin-top: -65px;
 }
 
 .section-form-submit .btn:hover {
@@ -301,9 +299,8 @@ hr {
 }    
 
 .btn-group .dropdown-menu a:hover, .btn-group .dropdown-menu a:focus {
-    color: #868585;
+    color: #868585;   
     background-color: #f9f9f9;
-    width: 140px;
 }
 
 /* -----------------------------------------------
@@ -383,7 +380,7 @@ hr {
 
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-    color: #fff;   
+    color: #ffffff;   
     background-color: #006197;
 }
 
@@ -635,13 +632,11 @@ hr {
 
 .ask-help {
   background-color: #f9f9f9;
-  border-color: #ededed;
+  border-color: #ededed;    
   border-radius: 0;
   width: 287px;
   height: 32px;
   cursor: pointer;
-  position: relative;
-  top: 12px;
 }
 
 .ask-help:hover {
@@ -789,72 +784,61 @@ hr {
 /* ----------- LAYOUT ---------*/
 .section {
     border-bottom: rgba(204, 204, 204, 0.64) solid 1px;
-    padding-bottom: 57px;
+    width: 1000px;
+    padding-bottom: 60px;
 }
 
 .section-navbar {
     margin: -10px 0 0 -12px;
+    width: 1005px;
 }
 
-.section-navbar>ul {
-    margin: 0px 0 -35px 0px;
-    padding: 2px 0px;
-    background-color: #ececec;
-    height: 32px;
+.section-navbar ul {
+    display: block;
+    margin: -35px 0 -35px 0px;
+    padding: 25px 0px;
     width: 1000px;
 }
 
-.section-navbar>ul>li {
-    display: block;
+.section-navbar li {
+    display: inline;
     float: left;
-    height: 30px;
+    width: 100px;
+    height: 28px;
     text-align: center;
-    background-color: #ececec;
+    background-color:rgba(1,121,196,1);
+    border-bottom-color: rgba(252,180,40,1);
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    color: #fff;
     border-right-color: #fff;
     border-right-width: thin;
     border-right-style: solid;
     border-radius: 2px;
     font-weight: normal;
     font-size: 12px;
-    padding: 5px 20px;
 }
 
-.section-navbar>ul>li>a {
-    display: inline-block;
-    color: #999;
-    text-decoration: none;
-}
-
-.section-navbar>ul>li.active {
-    background-color: #0083ca;
-    border-radius: 2px;
-    border-top-color: #359dd5;
-    border-top-style: solid;
-    border-top-width: medium;
-    text-decoration: none;
-    padding: 7px 20px;
-    margin-top: -5px;
+.section-navbar a {
+    display: block;
     color: #fff;
-    font-weight:bold;
-    letter-spacing:0.5px;
-    height: 35px;
+    padding: 5px;
+    text-decoration: none;
 }
 
-.section-navbar>ul>li:hover {
-    background-color: #0083ca;
+.section-navbar li.active, .section-navbar a:hover  {  
+    background-color: rgba(252,180,40,1);
     border-radius: 2px;
-    border-top-color: #359dd5;
+    border-top-color: rgba(252,200,40,1);
     border-top-style: solid;
     border-top-width: medium;
     text-decoration: none;
-    margin: -5px 0;
-    height:35px;
+    padding: 5px 0;
+    margin-top: -3px;
+    height: 31px;
 }
-
-.section-navbar>ul>li:hover a  {
-    color: #fff !important;
+.section-navbar li.active {
 }
-
 
 #section-head {
     position: relative;
@@ -876,131 +860,6 @@ hr {
     font-weight: 400;
     font-style: italic;
 }
-
-.section-sub-form {
-    height: 45px;
-    border-radius: 2px;
-    box-shadow: none;
-    width: 500px;
-}
-
-.section-sub-form .form-control {
-    width: 123%;
-    height: 45px;
-    position: relative;
-    left: -30px;
-    border-radius: 2px;
-}
-
-.section-sub-form .form-group {
-    position: relative;
-    top: -80px;
-    margin-bottom: 0;
-}
-
-.section-sub-form .form-group p {
-    font-weight: bold;
-    font-size: 15px;
-    padding: 10px 0 0;
-    position: relative;
-    z-index: 1;
-    left: -15px;
-}
-
-.section-sub-form .btn-group .btn {
-    width: 110%;
-    height: 45px;
-    background-color: #fff;
-    border-color: #ccc;
-    text-align: left;
-    font-size: 12px;
-    color: #5E5D5D;
-    border-radius: 2px;
-    position: relative;
-    left: -105px;
-}
-
-.section-sub-form .btn-group .dropdown-menu {
-    left: -45px;
-    width: 140px;
-}
-
-.section-sub-form .btn-group .dropdown-menu>li>a {
-}
-
-.section-sub-form .access-control-tooltip + .tooltip > .tooltip-inner {
-    position: relative;
-    left:447px;
-    top:-30px;
-}
-
-.section-sub-form .access-control-tooltip + .tooltip > .tooltip-arrow {
-    position: relative;
-    left:440px;
-    margin-top: 5px;
-}
-
-
-.section-sub-head {
-    position: relative;
-}
-
-.section-sub-head h4 {
-    color: #0083CA;    
-}
-.section-sub-head p {
-    color: #0083CA;
-    font-size: 15px;
-    font-weight: 100;
-    position: relative;
-    top: -40px;
-    left: 150px;
-}
-.section-sub-head .form-edit {
-    color: #0083CA;
-    text-transform: uppercase;
-    float: right;
-    top: -76px;
-    position: relative;
-    right: 20px;
-}
-
-.section-sub-head .form-edit:hover a {
-    color: #359dd5;
-}
-
-.section-sub-head hr {
-    width: 100%;
-    position: relative;
-    top: 10px;
-}
-
-.blue-box {
-    background-color: #f3f8fb;
-    padding: 2px 30px 15px;
-    position: relative;
-    top: 14px;
-    border: #cbe6f4 1px solid;
-    width: 320px;
-}
-
-.blue-box p {
-    color: #0083ca;
-}
-
-.yellow-box {
-    background-color: #fffcf7;
-    padding: 2px 30px 15px;
-    position: relative;
-    top: 25px;
-    border: #feecc6 1px solid;
-    width: 320px;
-}
-
-.yellow-box h3 {
-    color: #f5bc39;
-}
-
 .section-buttons {
     display: inline;
     position: relative;
@@ -1054,8 +913,6 @@ hr {
     top: 60px;
     right: 0px;
 }
-
-
 /* ---------- RESULT PAGINATION ----------- */
 .result-count {
     float: right;
@@ -2220,6 +2077,7 @@ position: relative;}
 
 .has-error .form-control {
     border: 2px solid #e46f4e;
+
 }
 
 .has-error .form-control:focus {
@@ -2232,10 +2090,10 @@ position: relative;}
 }
 
 .has-error .tooltip, .has-error .tooltip-inner {
-    /* position: relative; */
-    /* margin: 85px 10px 0; */
-    /* padding: 5px 10px; */
-    display: none;
+    position: relative;
+    margin: 85px 10px 0;
+    padding: 5px 10px;
+
 }
 .has-error .tooltip-arrow {
     display: none;
@@ -2243,61 +2101,4 @@ position: relative;}
 
 .alert-close {
     position: relative;
-}
-
-
-/* --------  SUBMISSION FORM ----------- */
-.sub-error {
-    border: 1px solid #eb6147;
-    text-align: center;
-    padding: 0 200px 10px;
-    margin: 20px -15px;
-    width: 1000px;
-}
-.sub-error h3 {
-    color: #eb6147;    
-}
-.sub-error p, .sub-success p {
-    margin-top: -10px;
-}
-
-.back-btn .btn-danger {
-    border: #e3623c solid 1px;
-    position: relative;
-    left: 0;
-    color: #fff;
-    width: 140px;
-    height: 43px;
-    border-radius: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-.sub-success {
-    border: 1px solid #F5BC39;
-    background-color: #fffcf7;
-    text-align: center;
-    padding: 0 200px 10px;
-    margin: 20px -15px;
-    width: 1000px;
-}
-.sub-success h3 {
-    color: #F5BC39;    
-}
-.back-btn .btn-success {
-    position: relative;
-    left: 0;
-    color: #fff;
-    width: 140px;
-    height: 43px;
-    border-radius: 2px;
-    background-color: #F5BC39;
-    border-color: transparent;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.back-btn .btn-success:hover {
-    background-color: #fdc956;
 }

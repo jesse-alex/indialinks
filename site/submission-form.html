@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="your content here">
+
+      
+    <!-- Normalize, Bootstrap & Custom CSS -->
+    <link href ="css/bootstrap.min.css" rel = "stylesheet">
+	<link href ="css/style.css" rel = "stylesheet">
+
+	<style>
+		form .alert {display: none;}
+	</style>
+      
+
+  	<!-- INDIALINKS CUSTOM ICON FONTS -->	
+        <link rel="stylesheet" href="fonts/indialinks.css">
+        <!--[if lt IE 8]><!-->
+        <link rel="stylesheet" href="fonts/ie7/ie7.css">
+        <!--<![endif]-->
+      
+      <link rel="icon" type="image/png" href="favicon.png">
+
+	</head>
+
+	<body>
+		
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">My IndiaLinks</a>
+				</div>
+				<div class="navbar-right">
+					<p class="login-text">Logged in as Bhavin Chandrana</p>
+						<div class="login-btn">
+						    <a href="#" class="dropdown-toggle icons-login" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="icon-login"></i></a>
+							<ul class="dropdown-menu bubble" aria-labelledby="dropdownMenu1">
+								<li><a href="#"><i class="icon-profile"></i>Profile</a></li>
+								<li><a href="#"><i class="icon-settings"></i>Settings</a></li>
+								<li><a href="#"><i class="icon-logout"></i> Log Out</a></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+
+				<hr>
+
+		<!--  NAVBAR BEGINS HERE -->
+    <div class="navbar-wrapper">
+		<div class="container" >  
+			<ul class="nav navbar-nav" role="navigation">
+			    <li class="active"><a href="#">Dashboard</a></li>
+			                
+			           	<!-- FIRST DROP DOWN BEGINS HERE -->
+			           	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Product</a>
+			               	<ul class="dropdown-menu">
+
+			                 	<!-- SECOND DROP DOWN BEGINS HERE -->
+					            <li class="dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Web and Email Hosting</a>
+					                <ul class="dropdown-menu columns">
+									    <li><a href="#">Create Account</a></li>
+									    <li><a href="#">Search Account</a></li>
+									    <li><a href="#">List all Accounts</a></li>
+									    <li><a href="#">My Packages</a></li>
+									    <li><a href="#">Customer Transfers</a></li>
+									    <li><a href="#">Bulk Password Change</a></li>
+									    <li><a href="#">Block/Unblock Accounts</a></li>
+									    <li><a href="#">Delete Account</a></li>
+									    <li><a href="#">Disk Usage Report</a></li>
+									    <li><a href="#">Upgrade Account</a></li>
+					                </ul>     
+				                </li>				                    
+					           	<li><a href="#">Domain Name</a></li>
+					            <li><a href="#">Web Forwarding</a></li>
+					            <li><a href="#">Manage DNS</a></li>
+					            <li><a href="#">Dedicated Servers</a></li>			              
+			                </ul>
+			            </li>
+			            <li><a href="#">Customer</a></li>
+			            <li><a href="#">Settings</a></li>
+			            <li><a href="#">Tickets</a></li>
+			            <li><a href="#">Billing</a></li>
+			            <li><a href="#">Order Box</a></li>
+			            <li><a href="#">Renewals</a></li>
+			            <li><a href="#">Tools</a></li>
+			   	</ul>
+			</div>
+        </div>
+		</nav>
+		<!-- END OF NAVBAR -->
+
+		<!-- BREADCRUMBS START -->
+		<div class="container">
+	        <ol class="breadcrumb">
+	            <p>You are here: </p>
+	            <li><a href="#">Dashboard</a></li>
+	            <li><a href="#">Product</a></li>
+	            <li><a href="#">2nd Navigation</a></li>
+	            <li><a href="#">3rd Navigation</a></li>
+	            <li><a href="#">Section Title</a></li>
+	            <li class="active">Page Title</li>
+	        </ol>
+	        <hr>
+    	</div>
+    	<!-- BREADCRUMBS END -->
+
+		<!-- SECTION NAV START -->
+		<div class="container">
+        <h3 style="margin-top:-10px">Section Title</h3>
+            <div class="section-navbar">
+                <ul>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li class="active">Page Title</li>
+                    <li><a href="#">Option 4</a></li>
+                    <li><a href="#">Option 5</a></li>
+                    <li><a href="#">Option 6</a></li>
+                </ul>
+            </div>
+    	</div>
+    	<!-- SECTION NAV END -->
+
+    	<!-- SECTION BODY START -->
+    	<div class="container">
+    		<div class="row">
+    			<div class="section">
+	    			<div class="col-md-8">
+	    				<div id="section-head">
+	    					<h3>Customer Profile</h3>
+	    					<p>Following is profile and contact information of selected customer.</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-4">
+							<div class="ask ask-help text-center">
+								<a href ="#"><i class="icon-chat"></i><h4>NEED HELP? CLICK AND JUST ASK!</h4></a>
+							</div>
+					</div>
+				</div>
+    		</div>
+
+    		<div class="row">
+    				<div class="col-md-8">
+    					<div class="section-sub-head">
+    						<h4>Sub-Heading-One</h4>
+    						<p>Following is profile and contact information of selected customer</p>
+    						<h5 class="form-edit"><a href ="#">Edit</a></h5>
+    						<hr>
+    					</div>
+    					<div class="col-md-12">
+	    						<form class="section-sub-form">
+					            	<fieldset>
+					            		 <div class="alert alert-danger"> </div>
+						                <div>        
+						                    <div class="form-group">
+						                    	<p>Customer Code</p>
+						                        <input data-title="Please enter your customer code" name="customer-code" class="form-control" data-require="yes" placeholder="Eg. 18238493" data-regex="^[0-9]{6,20}$">
+						                        <a href="#" data-toggle="tooltip" data-placement="right" class="access-control-tooltip" title="Access to create new hosting accounts"><i class="icon-info-inactive"></i></a>
+						                    </div>
+						           		</div>					            
+							            <div>
+							                    <div class="form-group">
+							                    	<p>Company Name</p>
+							                        <input data-title="Please enter your company name" name="company-name" class="form-control" data-require="yes" placeholder="Eg. ABC Company Ltd." data-regex="^(?![0-9]).*?$">
+							                        <a href="#" data-toggle="tooltip" data-placement="right" class="access-control-tooltip" title="Access to create new hosting accounts"><i class="icon-info-inactive"></i></a>
+							                    </div>
+							            </div>	
+							             <div>
+							                    <div class="form-group">
+							                    	<p>Address One</p>
+							                        <input data-title="Please enter your address" name="company-name" class="form-control" data-require="yes" placeholder="Eg. Block No./Building Name/Street Name" data-regex="^(?![0-9]).*?$">
+							                        <a href="#" data-toggle="tooltip" data-placement="right" class="access-control-tooltip" title="Access to create new hosting accounts"><i class="icon-info-inactive"></i></a>
+							                    </div>
+							            </div>
+
+							            <div class="col-sm-3">
+							            	<div class="form-group">
+							            		<p style="left: -30px;">Country Code</p>
+								            	<div class="btn-group">
+							    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 60px;">+91<i class="icon-down-arrow"></i></button>
+							    					<ul class="dropdown-menu">
+													    <li><a href="#">+91</a></li>
+													    <li><a href="#">+92</a></li>
+													    <li><a href="#">+93</a></li>
+												 	</ul>
+												</div>
+											</div>
+							            </div>					            
+							            <div class="col-sm-9">
+							            	<div class="form-group" style="margin-top:-15px;">
+						                    	<p>Phone Number</p>
+						                        <input data-title="Please enter your phone number" name="customer-code" class="form-control" data-require="yes" placeholder="Eg. 9820598205" data-regex="^[0-9]{6,20}$" style="width: 134%;left: -15px;">
+						                    </div>
+							            </div>
+							                    <div class="section-form-cancel">
+							                        <button class="btn btn-default" type="reset">Cancel</button>
+							                    </div>
+
+							                    <div class="section-form-submit">
+							                        <button class="btn btn-default" type="submit">Save Changes</button>
+							                    </div>   
+							        </fieldset>
+	           					</form>
+    					</div>
+    				</div>
+    				<div class="col-md-4">
+    					<div class="blue-box">
+							<h3>Tips</h3>
+							<p><strong>1.</strong> Following is profile and contact information of selected customer.</p>
+							<p><strong>2.</strong> Following is profile and contact information of selected customer.</p>
+							
+						</div>
+						<div class="yellow-box">
+							<h3>Important</h3>
+							<p>Following is profile and contact information of selected customer.</p>
+
+						</div>
+    				</div>
+
+    		</div>
+              
+    	</div>
+    
+    <div class="spacer-l"></div>
+        
+
+		<!-- FOOTER -->
+        <div class="footer navbar-fixed-bottom">
+            <div class="container">
+                <div class="footer-text">
+                    IndiaLinks&copy;2015 
+                </div>
+            </div>
+        </div>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/bootstrap.validator.js"></script>
+
+        <script>
+			$('form').bootstrap3Validate(function(e, data) {
+				e.preventDefault();
+
+			    alert(JSON.stringify(data));
+			});
+		</script>
+
+    </body>
+</html>
