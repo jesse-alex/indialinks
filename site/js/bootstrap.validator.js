@@ -144,6 +144,7 @@
                 $(invalids).closest('.form-group').addClass('has-error').find('input,select,textarea').each(function(i) {
                     var target = $(this);
                     var text = target.attr('data-title');
+                    target.attr('placeholder', target.attr('data-title'));
                     if(!text) {
                         text = target.attr('placeholder');
                     }
