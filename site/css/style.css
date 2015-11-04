@@ -817,6 +817,7 @@ hr {
     font-weight: normal;
     font-size: 12px;
     padding: 5px 20px;
+    min-width: 100px;
 }
 
 .section-navbar>ul>li>a {
@@ -908,7 +909,7 @@ hr {
 }
 
 .section-sub-form .btn-group .btn {
-    width: 110%;
+    width: 145px;
     height: 45px;
     background-color: #fff;
     border-color: #ccc;
@@ -940,6 +941,14 @@ hr {
     margin-top: 5px;
 }
 
+.section-sub-form .section-form-submit .btn {
+    /* margin-top: -150px; */
+}
+
+.section-sub-form .section-form-cancel .btn {
+    /* margin-top: -20px; */
+    /* z-index: 999; */
+}
 
 .section-sub-head {
     position: relative;
@@ -989,11 +998,11 @@ hr {
 }
 
 .yellow-box {
-    background-color: #fffcf7;
+    background-color: #FFFCF7;
     padding: 2px 30px 15px;
     position: relative;
     top: 25px;
-    border: #feecc6 1px solid;
+    border: 1px solid #FBBB2B;
     width: 320px;
 }
 
@@ -2228,15 +2237,16 @@ position: relative;}
 
 .form-validation .form-control {
     height: 45px;
-    width: 310px;
+    width: 615px;
 }
 
 .has-error .tooltip, .has-error .tooltip-inner {
-    /* position: relative; */
-    /* margin: 85px 10px 0; */
-    /* padding: 5px 10px; */
+   /* position: relative; 
+    margin: -14px 10px 0; 
+    padding: auto; */
     display: none;
 }
+
 .has-error .tooltip-arrow {
     display: none;
 }
