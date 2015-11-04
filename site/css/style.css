@@ -883,6 +883,8 @@ hr {
     border-radius: 2px;
     box-shadow: none;
     width: 500px;
+    position: relative;
+    top: -80px;
 }
 
 .section-sub-form .form-control {
@@ -891,21 +893,23 @@ hr {
     position: relative;
     left: -30px;
     border-radius: 2px;
+    box-shadow: none;
 }
 
 .section-sub-form .form-group {
     position: relative;
-    top: -80px;
+    /* top: -80px; */
     margin-bottom: 0;
 }
 
 .section-sub-form .form-group p {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px 0 0;
     position: relative;
     z-index: 1;
     left: -15px;
+    color: #868585;
 }
 
 .section-sub-form .btn-group .btn {
@@ -918,11 +922,11 @@ hr {
     color: #5E5D5D;
     border-radius: 2px;
     position: relative;
-    left: -105px;
+    left: -31px;
 }
 
 .section-sub-form .btn-group .dropdown-menu {
-    left: -45px;
+    left: -30px;
     width: 140px;
 }
 
@@ -942,12 +946,11 @@ hr {
 }
 
 .section-sub-form .section-form-submit .btn {
-    /* margin-top: -150px; */
+    margin-top: -150px;
 }
 
 .section-sub-form .section-form-cancel .btn {
-    /* margin-top: -20px; */
-    /* z-index: 999; */
+    margin-top: -110px;
 }
 
 .section-sub-head {
@@ -955,7 +958,8 @@ hr {
 }
 
 .section-sub-head h4 {
-    color: #0083CA;    
+    color: #0083CA;
+    font-size: 15px;
 }
 .section-sub-head p {
     color: #0083CA;
@@ -2228,7 +2232,7 @@ position: relative;}
 }
 
 .has-error .form-control {
-    border: 2px solid #e46f4e;
+    border: 1px solid #e46f4e;
 }
 
 .has-error .form-control:focus {
