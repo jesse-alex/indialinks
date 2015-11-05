@@ -122,6 +122,61 @@ hr {
     background-color: #aaa;
 }
 
+/* -----------------------------------------------
+
+           STYLING FOR SAFARI ONLY
+
+-------------------------------------------------*/
+
+
+_:-webkit-full-screen:not(:root:root), .section { 
+    border-bottom: rgba(204, 204, 204, 0.64) solid 1px;
+    position: relative;
+    top: 30px;
+}
+
+_:-webkit-full-screen:not(:root:root), #section-head-4 { 
+    padding-top: 40px;
+}
+
+_:-webkit-full-screen:not(:root:root), #section-head { 
+    padding-top: 22px;
+}
+
+_:-webkit-full-screen:not(:root:root), .section-sub-head {
+    position: relative;
+    top: 30px;
+}
+
+_:-webkit-full-screen:not(:root:root), .blue-box {
+    margin-top: 30px;
+}
+
+_:-webkit-full-screen:not(:root:root), .section-sub-form {
+    margin-top: 25px;
+}
+
+_:-webkit-full-screen:not(:root:root), .sub-success {
+    position: relative;
+    top: 30px;
+}
+
+_:-webkit-full-screen:not(:root:root), .sub-error {
+    position: relative;
+    top: 30px;
+}
+
+_:-webkit-full-screen:not(:root:root), .back-btn {
+    padding-top: 20px;
+}
+
+_:-webkit-full-screen:not(:root:root), .section .ask {
+    margin-top: 5px;
+}
+
+_:-webkit-full-screen:not(:root:root), .ask {
+    margin-top: 35px;
+}
 
 /* -----------------------------------------------
 
@@ -633,6 +688,13 @@ hr {
     left: 33px;
 }
 
+.ask-4 {
+    position: relative;
+    margin-top: 40px;
+    padding: 15px;
+    left: 33px;
+}
+
 .ask-help {
   background-color: #f9f9f9;
   border-color: #ededed;
@@ -862,17 +924,71 @@ hr {
     top: 15px;
 }
 
-#section-head h3 {
+#section-head-2 h3 {
     color: #f5bc39;
     display: inline;
     font-size: 21px;
 }
-#section-head p {
+
+#section-head h3 {
+    color: #f5bc39;
+    display: inline;
+    font-size: 21px;
+    position: relative;
+    top: 15px;
+}
+
+#section-head-3 h3 {
+    color: #f5bc39;
+    display: inline;
+    font-size: 21px;
+    position: relative;
+    top: 20px;
+}
+
+#section-head-4 h3 {
+    color: #f5bc39;
+    display: inline;
+    font-size: 21px;
+    position: relative;
+    top: 18px;
+}
+
+#section-head-2 p,{
     font-size: 15px;
     font-weight: 100;
     display: inline;
     padding-left:10px;
 }
+
+#section-head p{
+    font-size: 15px;
+    font-weight: 100;
+    display: inline;
+    padding-left:10px;
+    position: relative;
+    top: 15px;
+}
+
+#section-head-3 p {
+    font-size: 15px;
+    font-weight: 100;
+    display: inline;
+    padding-left:10px;
+    position: relative;
+    top: 20px;
+}
+
+#section-head-4 p {
+    font-size: 15px;
+    font-weight: 100;
+    display: inline;
+    padding-left:10px;
+    position: relative;
+    top: 18px;
+}
+
+
 #section-head .highlight {
     font-weight: 400;
     font-style: italic;
@@ -953,6 +1069,10 @@ hr {
     margin-top: -100px;
 }
 
+.sub-section-head {
+
+}
+
 .section-sub-head {
     position: relative;
 }
@@ -986,6 +1106,15 @@ hr {
     width: 100%;
     position: relative;
     top: 10px;
+}
+
+_:-webkit-full-screen:not(:root:root), .blue-box  {
+    background-color: #f3f8fb;
+    padding: 2px 30px 15px;
+    position: relative;
+    top: 30px;
+    border: #cbe6f4 1px solid;
+    width: 320px;
 }
 
 .blue-box {
@@ -1064,7 +1193,7 @@ hr {
     border-color: rgba(100,100,100,0.2);
     position: absolute;
     width: 1000px;
-    top: 60px;
+    top: 50px;
     right: 0px;
 }
 
