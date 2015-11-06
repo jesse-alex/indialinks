@@ -157,7 +157,8 @@ _:-webkit-full-screen:not(:root:root), #section-head-4 {
 }
 
 _:-webkit-full-screen:not(:root:root), #section-head { 
-    padding-top: 22px;
+    position: relative;
+    top: 35px;
 }
 
 _:-webkit-full-screen:not(:root:root), .section-sub-head {
@@ -193,6 +194,10 @@ _:-webkit-full-screen:not(:root:root), .section .ask {
 
 _:-webkit-full-screen:not(:root:root), .ask {
     margin-top: 35px;
+}
+
+_:-webkit-full-screen:not(:root:root), .customer-profile {
+    margin-top: 30px;
 }
 
 /* -----------------------------------------------
@@ -1782,9 +1787,8 @@ option {
     background-color: #fff;
     font-family: "Roboto Condensed";
     color:#0083ca;
-    top: -20px;
     left: 7px;
-    position: absolute;
+    position: relative;
     width: 130px;
     border: #0083ca 1px solid;
     text-align: left;
@@ -1794,7 +1798,7 @@ option {
     padding: 10px;
 }
 
-.access-control-tooltip-left + .tooltip > .tooltip-inner {
+.access-control-tooltip-1 + .tooltip > .tooltip-inner {
     background-color: #fff;
     font-family: "Roboto Condensed";
     color:#0083ca;
@@ -1810,13 +1814,29 @@ option {
     padding: 10px;
 }
 
-.access-control-tooltip-bottom + .tooltip > .tooltip-inner {
+.access-control-tooltip-2 + .tooltip > .tooltip-inner {
     background-color: #fff;
     font-family: "Roboto Condensed";
     color:#0083ca;
-    top: -20px;
-    left: 110px;
-    position: absolute;
+    top: 10px;
+    left: -10px;
+    position: relative;
+    width: 130px;
+    border: #0083ca 1px solid;
+    text-align: left;
+    font-size: 11px;
+    font-weight: normal;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.access-control-tooltip-3 + .tooltip > .tooltip-inner {
+    background-color: #fff;
+    font-family: "Roboto Condensed";
+    color:#0083ca;
+    top: 10px;
+    left: -35px;
+    position: relative;
     width: 130px;
     border: #0083ca 1px solid;
     text-align: left;
@@ -1827,22 +1847,16 @@ option {
 }
 
 
-
 .access-control-tooltip + .tooltip > .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
+    position: relative;
     border-style: solid;
     border-width: 5px 0 5px 7px;
     border-color: transparent transparent transparent #0082C9;
-    font-size: 0;
-    line-height: 0;
-    margin-left: 137px;
-    margin-top: -4px;
-    z-index: 2;
+    left: 137px;
+    top: 0;
 }
 
-.access-control-tooltip-left + .tooltip > .tooltip-arrow {
+.access-control-tooltip-1 + .tooltip > .tooltip-arrow {
     position: absolute;
     width: 0;
     height: 0;
@@ -1856,7 +1870,7 @@ option {
     z-index: 2;    
 }
 
-.access-control-tooltip-bottom + .tooltip > .tooltip-arrow {
+.access-control-tooltip-2 + .tooltip > .tooltip-arrow {
     position: absolute;
     width: 0;
     height: 0;
@@ -1865,7 +1879,21 @@ option {
     border-color: transparent transparent transparent #0082C9;
     font-size: 0;
     line-height: 0;
-    margin-left: 240px;
+    margin-left: 125px;
+    margin-top: 0px;
+    z-index: 2;
+}
+
+.access-control-tooltip-3 + .tooltip > .tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent #0082C9;
+    font-size: 0;
+    line-height: 0;
+    margin-left: 100px;
     margin-top: 0px;
     z-index: 2;
 }
@@ -2075,7 +2103,7 @@ label.css-agree {
     color: #5E5D5D;
     background: url(../img/down-arrow.png)no-repeat 85% 50% #FFF;
     background-position-x: 200px;
-    background-position: 200px
+    background-position: 200px;
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
@@ -2649,4 +2677,9 @@ position: relative;}
 
 .back-btn .btn-success:hover {
     background-color: #fdc956;
+}
+
+.customer-profile {
+    position: relative;
+    top: 30px;
 }

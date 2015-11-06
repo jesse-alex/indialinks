@@ -121,7 +121,7 @@
     		<div class="row">
     			<div class="section">
 	    			<div class="col-md-8">
-	    				<div id="section-head">
+	    				<div id="section-head-3">
 	    					<h3>Customer Profile</h3>
 	    					<p>Following is profile and contact information of selected customer.</p>
 	    				</div>
@@ -134,40 +134,42 @@
 				</div>
     		</div>
     
-            <form class="form-validation">
-            	<fieldset style="margin-top: 15px;">
+            <div class="customer-profile">
+	            <form class="form-validation">
+	            	<fieldset>
 
-            		 <div class="alert alert-danger"> </div>
+	            		 <div class="alert alert-danger"> </div>
 
-	                <div class="col-md-4" style="margin-left: -28px;">        
-	                    <div class="form-group">
-	                        <input data-title="Please enter your customer code" name="customer-code" class="form-control" data-require="yes" placeholder="Customer Code" data-regex="^[0-9]{6,20}$">
-	                    </div>
-	           		</div>
-	            
-		            <div class="col-md-4" style="margin-left: 20px;">
+		                <div class="col-md-4" style="margin-left: -28px;">        
 		                    <div class="form-group">
-		                        <input data-title="Please enter your address" name="address-two" class="form-control" data-require="yes" placeholder="Address Two" data-regex="^(?![0-9]).*?$">
+		                        <input data-title="Please enter your customer code" name="customer-code" class="form-control" data-require="yes" placeholder="Customer Code" data-regex="^[0-9]{6,20}$">
 		                    </div>
-		            </div>
-	            
-		            <div class="col-md-4" style="padding-left: 35px;">
-		                <div class="form-group">
-		                    <input type="text" class="form-control" id="lorem ipsum" placeholder="Lorem Ipsum">
-		                </div>
+		           		</div>
+		            
+			            <div class="col-md-4" style="margin-left: 20px;">
+			                    <div class="form-group">
+			                        <input data-title="Please enter your address" name="address-two" class="form-control" data-require="yes" placeholder="Address Two" data-regex="^(?![0-9]).*?$">
+			                    </div>
+			            </div>
+		            
+			            <div class="col-md-4" style="padding-left: 35px;">
+			                <div class="form-group">
+			                    <input type="text" class="form-control" id="lorem ipsum" placeholder="Lorem Ipsum">
+			                </div>
 
-		                <div>
-		                    <div class="col-md-6 section-form-cancel">
-		                        <button class="btn btn-default" style="margin-left:-15px;" type="reset">Cancel</button>
-		                    </div>
+			                <div>
+			                    <div class="col-md-6 section-form-cancel">
+			                        <button class="btn btn-default" style="margin-left:-15px;" type="reset">Cancel</button>
+			                    </div>
 
-		                    <div class="col-md-6 section-form-submit">
-		                        <button class="btn btn-default" type="submit">Save Changes</button>
-		                    </div>
-		                </div>    
-		            </div>
-		        </fieldset>
-            </form>            
+			                    <div class="col-md-6 section-form-submit">
+			                        <button class="btn btn-default" type="submit">Save Changes</button>
+			                    </div>
+			                </div>    
+			            </div>
+			        </fieldset>
+	            </form>
+	        </div>            
     	</div>
     
     <div class="spacer-l"></div>
