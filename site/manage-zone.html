@@ -31,14 +31,9 @@
 				<div class="navbar-right">
 					<p class="login-text">Logged in as Bhavin Chandrana</p>
 						<div class="login-btn">
-						    <a href="#" class="dropdown-toggle icons-login" data-toggle="dropdown" role="button" aria-expanded="false">
-                <i class="icon-login"></i></a>
-							<ul class="dropdown-menu bubble" aria-labelledby="dropdownMenu1">
-								<li><a href="#"><i class="icon-profile"></i>Profile</a></li>
-								<li><a href="#"><i class="icon-settings"></i>Settings</a></li>
-								<li><a href="#"><i class="icon-logout"></i> Log Out</a></li>
-							</ul>
-						</div>
+                            <a href="#" class="icons-login" role="button">
+                            <i class="icon-login"></i></a>
+                        </div>
 				</div>
 			</div>
 
@@ -295,22 +290,29 @@
 
                     		<div class="col-md-2">
                     			<div class="btn-group">
-			    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 60px;">A<i class="icon-down-arrow"></i></button>
-			    					<ul class="dropdown-menu">
-									    <li><a href="#">A</a></li>
-									    <li><a href="#">MX</a></li>
-								 	</ul>
+			    			        <div class="section-buttons select">
+                                        <div class="form-group">
+                                            <select class="form-control" id="record-type">
+                                                <option value="A">A</option>
+                                                <option value="MX">MX</option>                    
+                                            </select>
+                                        </div>
+                                    </div>
 								</div>
                     		</div>
 
                     		<div class="col-md-1">
                     			<div class="manage-zone-detail-priority">
 	                    			<div class="btn-group">
-				    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1<i class="icon-down-arrow"></i></button>
-				    					<ul class="dropdown-menu">
-										    <li><a href="#">10</a></li>
-										    <li><a href="#">20</a></li>
-									 	</ul>
+                                        <div class="section-buttons select">
+                                            <div class="form-group">
+                                                <select class="form-control" id="priority" style="left:20px">
+                                                    <option value="1">1</option>
+                                                    <option value="10">10</option>     
+                                                    <option value="20">20</option>                 
+                                                </select>
+                                            </div>
+                                        </div>
 									</div>
 								</div>
                     		</div>
@@ -344,8 +346,8 @@
       </div>
     </div>
       
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
       <script src="js/custom.js"></script>
 
   </body>

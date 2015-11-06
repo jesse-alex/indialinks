@@ -31,14 +31,9 @@
 				<div class="navbar-right">
 					<p class="login-text">Logged in as Bhavin Chandrana</p>
 						<div class="login-btn">
-						    <a href="#" class="dropdown-toggle icons-login" data-toggle="dropdown" role="button" aria-expanded="false">
-                <i class="icon-login"></i></a>
-							<ul class="dropdown-menu bubble" aria-labelledby="dropdownMenu1">
-								<li><a href="#"><i class="icon-profile"></i>Profile</a></li>
-								<li><a href="#"><i class="icon-settings"></i>Settings</a></li>
-								<li><a href="#"><i class="icon-logout"></i> Log Out</a></li>
-							</ul>
-						</div>
+                            <a href="#" class="icons-login" role="button">
+                            <i class="icon-login"></i></a>
+                        </div>
 				</div>
 			</div>
 
@@ -206,27 +201,30 @@
     		<div class="col-md-3">
     			<div class="manage-customer">
                     <h5>Customer Status</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>
-                    
+                        <div class="section-buttons select">
+                            <div class="form-group">
+                                <select class="form-control" id="customer-status">
+                                    <option value="" disabled selected>Don't Change</option>
+                                    <option value="edit">Edit</option>
+                                    <option value="delete">Delete</option>                    
+                                </select>
+                            </div>
+                        </div>
     			</div>
     		</div>
             
             <div class="col-md-3" style="padding-left: 30px">
     			<div class="manage-customer">
                     <h5>Premier Status</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>
+                        <div class="section-buttons select">
+                            <div class="form-group">
+                                <select class="form-control" id="premier-status">
+                                    <option value="" disabled selected>Don't Change</option>
+                                    <option value="edit">Edit</option>
+                                    <option value="delete">Delete</option>                    
+                                </select>
+                            </div>
+                        </div>
                     
     			</div>
     		</div>
@@ -234,27 +232,30 @@
             <div class="col-md-3" style="padding-left: 45px">
     			<div class="manage-customer">
                     <h5>Live Support Team</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>
-                    
+                        <div class="section-buttons select">
+                            <div class="form-group">
+                                <select class="form-control" id="live-support">
+                                    <option value="" disabled selected>Don't Change</option>
+                                    <option value="edit">Edit</option>
+                                    <option value="delete">Delete</option>                    
+                                </select>
+                            </div>
+                        </div>                
     			</div>
     		</div>
             
             <div class="col-md-3" style="padding-left: 63px">
     			<div class="manage-customer">
                     <h5>Account Manager</h5>
-    				<div class="btn-group">
-    					<button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Don't Change <i class="icon-down-arrow"></i></button>
-    					<ul class="dropdown-menu">
-						    <li><a href="#">Edit</a></li>
-						    <li><a href="#">Delete</a></li>
-					 	</ul>
-					</div>   
+                        <div class="section-buttons select">
+                            <div class="form-group">
+                                <select class="form-control" id="account-manager">
+                                    <option value="" disabled selected>Don't Change</option>
+                                    <option value="edit">Edit</option>
+                                    <option value="delete">Delete</option>                    
+                                </select>
+                            </div>
+                        </div>  
     			</div>
             </div>
             
@@ -279,8 +280,8 @@
       </div>
       </div>
       
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
       <script src="js/custom.js"></script>
 
   </body>
