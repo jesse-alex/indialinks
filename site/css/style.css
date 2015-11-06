@@ -223,13 +223,15 @@ body:not(:-moz-handler-blocked)
   }
 
 body:not(:-moz-handler-blocked)
-.section-sub-form .access-control-tooltip + .tooltip > .tooltip-inner {
-    left:440px;
+.access-control-tooltip + .tooltip > .tooltip-inner {
+    left:0px;
+    top: 0px;
 }
 
 body:not(:-moz-handler-blocked)
-.section-sub-form .access-control-tooltip + .tooltip > .tooltip-arrow {
-    left:433px;
+.access-control-tooltip + .tooltip > .tooltip-arrow {
+    left: -115px;
+    margin-top: -5px;
 }
 
 body:not(:-moz-handler-blocked)
@@ -1787,55 +1789,8 @@ option {
     background-color: #fff;
     font-family: "Roboto Condensed";
     color:#0083ca;
-    left: 7px;
-    position: relative;
-    width: 130px;
-    border: #0083ca 1px solid;
-    text-align: left;
-    font-size: 11px;
-    font-weight: normal;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-.access-control-tooltip-1 + .tooltip > .tooltip-inner {
-    background-color: #fff;
-    font-family: "Roboto Condensed";
-    color:#0083ca;
-    top: -20px;
-    left: 0px;
-    position: absolute;
-    width: 130px;
-    border: #0083ca 1px solid;
-    text-align: left;
-    font-size: 11px;
-    font-weight: normal;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-.access-control-tooltip-2 + .tooltip > .tooltip-inner {
-    background-color: #fff;
-    font-family: "Roboto Condensed";
-    color:#0083ca;
-    top: 10px;
-    left: -10px;
-    position: relative;
-    width: 130px;
-    border: #0083ca 1px solid;
-    text-align: left;
-    font-size: 11px;
-    font-weight: normal;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-.access-control-tooltip-3 + .tooltip > .tooltip-inner {
-    background-color: #fff;
-    font-family: "Roboto Condensed";
-    color:#0083ca;
-    top: 10px;
-    left: -35px;
+    top: 15px;
+    left: 115px;
     position: relative;
     width: 130px;
     border: #0083ca 1px solid;
@@ -1848,15 +1803,6 @@ option {
 
 
 .access-control-tooltip + .tooltip > .tooltip-arrow {
-    position: relative;
-    border-style: solid;
-    border-width: 5px 0 5px 7px;
-    border-color: transparent transparent transparent #0082C9;
-    left: 137px;
-    top: 0;
-}
-
-.access-control-tooltip-1 + .tooltip > .tooltip-arrow {
     position: absolute;
     width: 0;
     height: 0;
@@ -1865,38 +1811,11 @@ option {
     border-color: transparent transparent transparent #0082C9;
     font-size: 0;
     line-height: 0;
-    margin-left: 130px;
-    margin-top: -4px;
-    z-index: 2;    
-}
-
-.access-control-tooltip-2 + .tooltip > .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 0 5px 7px;
-    border-color: transparent transparent transparent #0082C9;
-    font-size: 0;
-    line-height: 0;
-    margin-left: 125px;
-    margin-top: 0px;
+    margin-left: 250px;
+    margin-top: 10px;
     z-index: 2;
 }
 
-.access-control-tooltip-3 + .tooltip > .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 0 5px 7px;
-    border-color: transparent transparent transparent #0082C9;
-    font-size: 0;
-    line-height: 0;
-    margin-left: 100px;
-    margin-top: 0px;
-    z-index: 2;
-}
 
 .register-title {
     border: #0083ca solid 1px;
