@@ -235,6 +235,18 @@ body:not(:-moz-handler-blocked)
 }
 
 body:not(:-moz-handler-blocked)
+.section-sub-form .access-control-tooltip + .tooltip > .tooltip-inner {
+    left:437px;
+    top: -32px;
+}
+
+body:not(:-moz-handler-blocked)
+.section-sub-form .access-control-tooltip + .tooltip > .tooltip-arrow {
+    left: 317px;
+    margin-top: 18px;
+}
+
+body:not(:-moz-handler-blocked)
 .section-sub-form .section-form-cancel .btn {
     margin-left: 115px;
 }
@@ -1127,7 +1139,7 @@ body:not(:-moz-handler-blocked)
 
 .section-sub-form .access-control-tooltip + .tooltip > .tooltip-arrow {
     position: relative;
-    left:440px;
+    left:327px;
     margin-top: 5px;
 }
 
