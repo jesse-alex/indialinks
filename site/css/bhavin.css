@@ -1,0 +1,201 @@
+/* EMAILMB TABLE */
+
+.emailmb td:nth-child(1), .emailmb th:nth-child(1) {
+    width: 30px;
+    text-align: left;
+}
+
+.emailmb td:nth-child(2), .emailmb th:nth-child(2) {
+    width: 280px;
+    text-align: left;
+}
+
+.emailmb td:nth-child(3), .emailmb th:nth-child(3) {
+    width: 250px;
+    text-align: left;
+}
+
+.emailmb td:nth-child(4), .emailmb th:nth-child(4) {
+    width: 240px;
+    text-align: left;
+}
+.emailmb td:nth-child(5), .emailmb th:nth-child(5) {
+    width: 100px;
+    text-align: left;
+}
+.emailmb td:nth-child(6), .emailmb th:nth-child(6) {
+    width: 100px;
+    text-align: right;
+}
+
+.classemailmb {position: relative;left:-15px;width:1000px; }
+
+/* EMAILAC TABLE */
+
+.emailac td:nth-child(1), .emailac th:nth-child(1) {
+    width: 30px;
+    text-align: left;
+}
+
+.emailac td:nth-child(2), .emailac th:nth-child(2) {
+    width: 370px;
+    text-align: left;
+}
+
+.emailac td:nth-child(3), .emailac th:nth-child(3) {
+    width: 150px;
+    text-align: left;
+}
+
+.emailac td:nth-child(4), .emailac th:nth-child(4) {
+    width: 150px;
+    text-align: left;
+}
+.emailac td:nth-child(5), .emailac th:nth-child(5) {
+    width: 150px;
+    text-align: left;
+}
+.emailac td:nth-child(6), .emailac th:nth-child(6) {
+    width: 150px;
+    text-align: left;
+}
+
+.classemailac {position: relative;left:-15px;width:1000px; }
+
+/* EMAILSP TABLE */
+
+.emailsp td:nth-child(1), .emailsp th:nth-child(1) {
+    width: 30px;
+    text-align: left;
+}
+
+.emailsp td:nth-child(2), .emailsp th:nth-child(2) {
+    width: 370px;
+    text-align: left;
+}
+
+.emailsp td:nth-child(3), .emailsp th:nth-child(3) {
+    width: 150px;
+    text-align: center;
+}
+
+.emailsp td:nth-child(4), .emailsp th:nth-child(4) {
+    width: 150px;
+    text-align: center;
+}
+.emailsp td:nth-child(5), .emailsp th:nth-child(5) {
+    text-align: left;
+}
+
+.classemailsp {position: relative;left:-15px;width:1000px; }
+
+/* EMAIL04 TABLE */
+
+.email04 td:nth-child(1), .email04 th:nth-child(1) {
+    width: 30px;
+    text-align: left;
+}
+
+.email04 td:nth-child(2), .email04 th:nth-child(2) {
+    width: 320px;
+    text-align: left;
+}
+
+.email04 td:nth-child(3), .email04 th:nth-child(3) {
+    width: 120px;
+    text-align: left;
+}
+
+.email04 td:nth-child(4), .email04 th:nth-child(4) {
+    width: 430px;
+    text-align: left;
+}
+
+.email04 td:nth-child(5), .email04 th:nth-child(5) {
+    width: 100px;
+    text-align: left;
+}
+
+.classemail04 {position: relative;left:-15px;width:1000px; }
+
+/* ALIAS01 TABLE */
+
+.alias01 td:nth-child(1), .alias01 th:nth-child(1) {
+    width: 30px;
+    text-align: left;
+}
+
+.alias01 td:nth-child(2), .alias01 th:nth-child(2) {
+    width: 250px;
+    text-align: left;
+}
+
+.alias01 td:nth-child(3), .alias01 th:nth-child(3) {
+    width: 620px;
+    text-align: left;
+}
+
+.classalias01 {position: relative;left:-15px;width:1000px; }
+
+/* LOGS01 TABLE */
+
+.logs01 td:nth-child(1), .logs01 th:nth-child(1) {
+    width: 80px;
+    text-align: left;
+}
+
+.logs01 td:nth-child(2), .logs01 th:nth-child(2) {
+    width: 230px;
+    text-align: left;
+}
+
+.logs01 td:nth-child(3), .logs01 th:nth-child(3) {
+    width: 130px;
+    text-align: left;
+}
+
+.logs01 td:nth-child(4), .logs01 th:nth-child(4) {
+    width: 380px;
+    text-align: left;
+}
+
+.logs01 td:nth-child(5), .logs01 th:nth-child(5) {
+    width: 150px;
+    text-align: left;
+}
+
+.classlogs01 {position: relative;left:-15px;width:1000px; }
+
+/* EMAILPB TABLE */
+
+.emailpb td:nth-child(1), .emailpb th:nth-child(1) {
+    width: 30px;
+    text-align: left;
+}
+
+.emailpb td:nth-child(2), .emailpb th:nth-child(2) {
+    width: 280px;
+    text-align: left;
+}
+
+.emailpb td:nth-child(3), .emailpb th:nth-child(3) {
+    width: 100px;
+    text-align: right;
+}
+
+.emailpb td:nth-child(4), .emailpb th:nth-child(4) {
+    width: 100px;
+    text-align: right;
+}
+
+.emailpb td:nth-child(5), .emailpb th:nth-child(5) {
+    width: 100px;
+    text-align: right;
+}
+
+.emailpb td:nth-child(6), .emailpb th:nth-child(6) {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.classemailpb {position: relative;left:-15px;width:1000px; }
