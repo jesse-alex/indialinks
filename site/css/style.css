@@ -563,7 +563,7 @@ body:not(:-moz-handler-blocked)
     border-radius: 0 6px 6px 6px;*/
     padding: inherit;
     border-left: 1px #0A4364 solid;
-    width: 200px;
+    width: 400px;
     border-radius: 2px;
 }
 
@@ -2156,12 +2156,6 @@ label.css-agree {
     margin-right:5px;
 }*/
 
-.alert-danger {
-    color: #f7dbd0;
-    background-color: #e46f4e;
-    border-color: transparent;
-}
-
 .has-error .form-control {
     border: 2px solid #e46f4e;
 }
@@ -2858,10 +2852,20 @@ position: relative;}
     color: #f7dbd0;
     background-color: #e46f4e;
     border-color: transparent;
-    width: 100%;
+    width: 645px;
     position: relative;
     top: 100px;
     left: -30px;
+}
+
+.customer-profile .alert-danger {
+    color: #f7dbd0;
+    background-color: #e46f4e;
+    border-color: transparent;
+    width: 103%;
+    position: relative;
+    top: -10px;
+    left: -13px;
 }
 
 .has-error .form-control {

@@ -143,19 +143,18 @@
 
                 $(invalids).closest('.form-group').addClass('has-error').find('input,select,textarea').each(function(i) {
                     var target = $(this);
-                    var text = target.attr('data-title');
+                    var text = target.attr('data-invalid');
                     target.attr('placeholder', target.attr('data-title'));
                     if(!text) {
                         text = target.attr('placeholder');
                     }
-
                     if(text) {
                         if(!target.is("[type='checkbox']")) {
                             target.tooltip({'trigger':'focus', placement: 'top', title: text});
                         }
 
                         if(i == 0) {
-                            $('.alert-danger', form).show().text(text);
+                            $('.alert-danger', form).show().text(text).delay(5000).fadeOut();;
                             this.focus();
                         }
                     }
