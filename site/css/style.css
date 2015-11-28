@@ -89,6 +89,15 @@ hr {
     margin-bottom: -120px;
 }
 
+.customerlist-hr {
+    border-style: solid none none;
+    border-top-width: 1px;
+    border-color: rgba(100,100,100,0.2);
+    margin-left: -27px;
+    width: 1000px;
+    margin-top: -24px;
+}
+
 #section-head hr {
     margin-top: 12px;
     margin-bottom: 0;
@@ -269,6 +278,12 @@ body:not(:-moz-handler-blocked)
 body:not(:-moz-handler-blocked)
 .section-sub-form {
     top: -160px;
+}
+
+body:not(:-moz-handler-blocked)
+.tooltip-fix {
+    position: absolute;
+    left: -160px;
 }
 
 /* -----------------------------------------------
@@ -1309,6 +1324,14 @@ _:-webkit-full-screen:not(:root:root), .blue-box  {
     border: none;
 }
 
+.section-buttons .form-group {
+    margin-bottom: 0px;
+}
+
+.multiple-options .form-group {
+    margin-bottom: 15px;
+}
+
 .section-buttons .fa-2x {
     float: right;
     top:2px;
@@ -1328,7 +1351,7 @@ _:-webkit-full-screen:not(:root:root), .blue-box  {
     border-radius: 2px;
     border: none;
     position: relative;
-    top: -46px;
+    top: -31px;
     /* left: 150px; */
 }
 
@@ -1358,6 +1381,7 @@ _:-webkit-full-screen:not(:root:root), .blue-box  {
     position: relative;
     width: 1000px;
     margin-left: -27px;
+    margin-top: -8px;
 }
 
 .hr {
@@ -1730,7 +1754,7 @@ option {
     width: 290px;
     position: relative;
     top: -95px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     margin-left: 0;
 }
 
@@ -1757,7 +1781,7 @@ option {
     width: 290px;
     position: relative;
     top: -95px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     margin-left: 0;
 }
 
@@ -3011,4 +3035,9 @@ position: relative;}
     width: 1000px;
     position: relative;
     top: -120px;
+}
+
+.tooltip-fix {
+    position: relative;
+    left: -160px;
 }
